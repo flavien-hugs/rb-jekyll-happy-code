@@ -1,0 +1,62 @@
+#------------------------------
+# Configuration du site
+
+title: happy coding
+language: "fr"
+# baseurl: "https://flavien-hugs.github.io/b-event/"
+# source: "https://flavien-hugs.github.io/b-event/"
+# url: "https://flavien-hugs.github.io/b-event/"
+description: 
+keywords: [
+    "apprendre l'informatique",
+    "Python", "HTML", "CSS", "JavaScript",
+    "Twitter Bootstrap", "VueJS", "Markdown"
+]
+
+#-------------------
+# configuration du build
+debug: false
+safe: true
+markdown: kramdown
+kramdown:
+    auto_ids: true
+    footnote_nr: 1
+    entity_output: as_char
+    toc_levels: 1..6
+    enable_coderay: false
+# permalink: '/agenda/:title'
+plugins:
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jekyll-seo-tag
+
+paginate: 7
+# paginate_path: "/page/:num"
+
+include:
+    - _pages
+
+includes_dir : _includes
+layouts_dir : _layouts
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+timezone: Africa/Nairobi
+highlighter: rouge
+sitemap: true
+
+livereload: true
+
+#---------------------
+# A propos de l'auteur
+author: flavien-hugs
+email: flavienhugs@pm.me
+
+# Site owner configuration
+owner:
+    name: happy coding
+    author: flavien-hugs
+    email: flavienhugs@pm.me
