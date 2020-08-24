@@ -1,0 +1,71 @@
+---
+layout: default
+title: Nos formations
+permalink: /formations/
+---
+
+<aside class="hero d-flex align-items-center showcase">
+  <div class="container-fluid justify-content-center p-0 mt-5">
+    <div class="row no-gutters py-5">
+      <div class="col-sm-7 mt-auto mt-sm-0 order-lg-1">
+        <img class="w-75 d-none d-md-block" src="{{ site.baseurl }}/assets/img/lms.png" alt="{{ page.title }}">
+      </div>
+
+      <div class="col-sm-12 col-md-5 order-lg-2 showcase-text bg-primary text-center text-sm-left">
+        <h1 class="my-3 text-white" style="font-size:2.5rem;font-weight:700; font-family:Monteserrat;">Je me forme au numérique.</h1>
+
+        <p class="text-white lead">Je me forme aux compétences les plus recherchées dans le domaine du numérique.</p>
+      </div>
+    </div>
+  </div>
+</aside>
+
+<section class="container py-4">
+    <div class="row">
+        <div class="col pt-2 pb-2">
+            <p><b>nb</b> Formations trouvées</p>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="container mb-2">
+            <div class="row">
+                {% for post in site.posts limit: 20 %}
+                <div class="col-sm-6 col-md-4 mb-3">
+                    <div class="card border">
+                        <a href="{{ post.title | prepend: site.baseurl | prepend: site.url }}" title="{{ post.title }}">
+                            <img src="{{ site.url }}/assets/img/{{ post.image.feature }}" class="card-img-top"
+                            alt="{{ post.title }}">
+                        </a>
+
+                        <div class="card-body card-hover">
+                            {% if post.category.size >=1 %}
+                                {% for cat in post.category %}
+                                <span class="badge badge-primary mb-2 p-2">
+                                    <a href="{{ site.url }}/category#{{ cat }}" title="{{ cat }}" class="text-white">
+                                        {{ cat }}
+                                    </a>
+                                </span>
+                                {% endfor %}
+                            {% endif %}
+
+                            <span class="badge badge-primary text-uppercase mb-2 p-2 border-0">{{ post.level }}</span>
+
+                            <span class="badge badge-primary mb-2 p-2 border-0">
+                                <i class="fas fa-calendar mr-2"></i>Débute le {{ post.date | date_to_long_string }}
+                            </span>
+
+                            <h4 class="card-title">
+                                <a href="{{ post.url | prepend: site.url }}" class="stretched-link text-decoration-none" style="color:#7551eb;">
+                                {{ post.title | link_to: post.url }}</a>
+                            </h4>
+
+                            <p class="card-text">
+                            {{ post.excerpt| truncatewords: '10' }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

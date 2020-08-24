@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Contact
-permalink: /contact/
+title: F.A.Q
+permalink: /faq/
 ---
 
 <section class="hero with-pattern py-5 bg-light">

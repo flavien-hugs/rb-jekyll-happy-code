@@ -1,14 +1,19 @@
 #------------------------------
 # Configuration du site
 # http://jekyllrb.com/docs/configuration/
+#---------------------
+# A propos de l'auteur
+author: flavien-hugs
+email: flavienhugs@pm.me
+tel: (+225) 51 57 13 96 / 77 27 48 86
 title: Happy Coding
 language: "fr"
 baseurl: ""
 url: ""
 description: ''
 keywords: [
-    "apprendre l'informatique",
-    "Python", "HTML", "CSS", "JavaScript",
+    "apprendre l'informatique", "initiation à l'informatique",
+    "Python3", "HTML", "CSS", "HTML5", "CSS3", "JavaScript",
     "Twitter Bootstrap", "VueJS", "Markdown"
 ]
 
@@ -34,9 +39,3 @@ exclude:
   - yarn.lock
 
 livereload: true
-
-#---------------------
-# A propos de l'auteur
-author: flavien-hugs
-email: flavienhugs@pm.me
-tel: (+225)51571396/77274886

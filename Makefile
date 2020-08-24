@@ -1,27 +1,14 @@
 SHELL := /bin/bash
 NPM := npm
-VENDOR_DIR = assets/vendor/
+VENDOR_DIR := assets/vendor/
 JEKYLL := jekyll
 
 PROJECT_DEPS := package.json
 
-
-.PHONY: all clean install update
-
-all : serve
-
-check:
-	$(JEKYLL) doctor
-	$(HTMLPROOF) --check-html \
-		--http-status-ignore 999 \
-		--internal-domains localhost:4000 \
-		--assume-extension \
-		_site
-
-install: $(PROJECT_DEPS)
+install:
 	$(NPM) install
 
-update: $(PROJECT_DEPS)
+update:
 	$(NPM) update
 
 include-npm-deps:
