@@ -32,8 +32,8 @@ permalink: /formation/
                 {% for post in site.posts limit: 20 %}
                 <div class="col-sm-6 col-md-4 mb-3">
                     <div class="card border">
-                        <a href="{{ post.title | prepend: site.baseurl | prepend: site.url }}" title="{{ post.title }}">
-                            <img src="{{ site.url }}/assets/img/{{ post.image.feature }}" class="card-img-top"
+                        <a href="{{ post.title | prepend: site.url }}" title="{{ post.title }}">
+                            <img src="{{ site.baseurl }}/assets/img/{{ post.image.feature }}" class="card-img-top"
                             alt="{{ post.title }}">
                         </a>
 
