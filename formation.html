@@ -32,7 +32,7 @@ permalink: /formation/
                 {% for post in site.posts limit: 20 %}
                 <div class="col-sm-6 col-md-4 mb-3">
                     <div class="card border">
-                        <a href="{{ post.title | prepend: site.url }}" title="{{ post.title }}">
+                        <a href="{{ post.title | prepend: site.baseurl }}" title="{{ post.title }}">
                             <img src="{{ site.baseurl }}/assets/img/{{ post.image.feature }}" class="card-img-top"
                             alt="{{ post.title }}">
                         </a>
@@ -41,7 +41,7 @@ permalink: /formation/
                             {% if post.category.size >=1 %}
                                 {% for cat in post.category %}
                                 <span class="badge badge-primary mb-2 p-2">
-                                    <a href="{{ site.url }}/category#{{ cat }}" title="{{ cat }}" class="text-white">
+                                    <a href="{{ site.baseurl }}/category#{{ cat }}" title="{{ cat }}" class="text-white">
                                         {{ cat }}
                                     </a>
                                 </span>
