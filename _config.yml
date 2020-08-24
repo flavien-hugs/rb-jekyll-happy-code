@@ -29,7 +29,7 @@ github_username:  flavien-hugs
 debug: false
 safe: true
 markdown: kramdown
-permalink: /formation/:categories/:title
+# permalink: /formation/:categories/:title
 # paginate: 1
 # paginate_path:
 
