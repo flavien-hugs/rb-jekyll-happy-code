@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Acquérir les bases essentielles du langage Python
-excerpt: "Vous avez un ordinateur, vous désirez apprendre à écrire des programme et êtes totalement ou partiellement débutant dans le domaine; vous êtes étudiant, enseignant ou simplement une personne qui sente l’envie ou le besoin d’apprendre la programmation de base; cette formation sur le langage de programmation Python comme clé pour vous initier à la programmation informatique."
+excerpt: "Vous avez un ordinateur, vous désirez apprendre à écrire des programme et êtes totalement ou partiellement débutant dans le domaine;"
 target: "Vous avez un ordinateur, vous désirez apprendre à écrire des programme et êtes totalement ou partiellement débutant dans le domaine."
 price: 30 000 Fr CFA
 sale: 35 000 Fr CFA

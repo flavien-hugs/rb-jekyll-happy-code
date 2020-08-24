@@ -1,8 +1,10 @@
-#------------------------------
+#----------------------------------------
 # Configuration du site
 # http://jekyllrb.com/docs/configuration/
-#---------------------
+#----------------------------------------
 # A propos de l'auteur
+#----------------------------------------
+
 author: flavien-hugs
 email: flavienhugs@pm.me
 tel: (+225) 51 57 13 96 / 77 27 48 86
@@ -20,11 +22,16 @@ keywords: [
 twitter_username: flavien_hugs
 github_username:  flavien-hugs
 
-#-------------------
+#-----------------------
 # configuration du build
+#-----------------------
+
 debug: false
 safe: true
 markdown: kramdown
+permalink: /formation/:categories/:title
+# paginate: 1
+# paginate_path:
 
 sass:
     load_paths:
