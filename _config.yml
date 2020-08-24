@@ -12,15 +12,16 @@ title: Happy Coding
 language: "fr"
 baseurl: ""
 url: ""
-description: ''
+description: "Plateforme de formation à l'outil informatique
+et d'initiation à l'anglais."
 keywords: [
     "apprendre l'informatique", "initiation à l'informatique",
     "Python3", "HTML", "CSS", "HTML5", "CSS3", "JavaScript",
-    "Twitter Bootstrap", "VueJS", "Markdown"
+    "Twitter Bootstrap", Markdown"
 ]
 
 twitter_username: flavien_hugs
-github_username:  flavien-hugs
+github_username: flavien-hugs
 
 #-----------------------
 # configuration du build
@@ -29,9 +30,7 @@ github_username:  flavien-hugs
 debug: false
 safe: true
 markdown: kramdown
-# permalink: /formation/:categories/:title
-# paginate: 1
-# paginate_path:
+permalink: /formation/:categories/:title
 
 sass:
     load_paths:
