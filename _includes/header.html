@@ -13,7 +13,7 @@
           {% for page in site.pages %}
             {% if page.title %}
               <li class="nav-item">
-                <a class="nav-link {% if page.title=='nos formations' %}
+                <a class="nav-link {% if page.title=='Nos formations' %}
                 btn btn-primary text-white
                 {% endif %}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
               </li>
