@@ -20,6 +20,12 @@ keywords: [
     "Twitter Bootstrap", Markdown"
 ]
 
+timezone: Africa/Nairobi
+
+#------------
+# Social Link
+#------------
+
 twitter_username: flavien_hugs
 github_username: flavien-hugs
 facebook_username: flavien.hugs
@@ -29,9 +35,18 @@ facebook_username: flavien.hugs
 #-----------------------
 
 debug: false
-safe: true
+safe: false
 markdown: kramdown
-permalink: /formation/:categories/:title
+permalink: /formation/:categories/:year/:month/:title
+
+#---------------------
+# Configuration plugin
+#---------------------
+
+plugins:
+    - jekyll-paginate
+paginate: 20
+paginate_path: "/formation/:num"
 
 sass:
     load_paths:
