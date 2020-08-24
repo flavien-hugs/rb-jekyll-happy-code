@@ -24,4 +24,4 @@ serve: include-npm-deps
 	JEKYLL_ENV=production $(JEKYLL) serve
 
 generate-githubpages:
-	rm -fr docs && JEKYLL_ENV=production $(JEKYLL) build --baseurl https://flavien-hugs.github.io/happyCoding -d site/ && touch site/.nojekyll
+	rm -fr docs && JEKYLL_ENV=production $(JEKYLL) build --baseurl https://flavien-hugs.github.io/happyCoding -d docs/ && touch docs/.nojekyll
