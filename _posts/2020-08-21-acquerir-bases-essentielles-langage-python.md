@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Acquérir les bases essentielles du langage Python
-excerpt: "Vous avez un ordinateur, vous désirez apprendre à écrire des programme et êtes totalement ou partiellement débutant dans le domaine;"
-target: "Vous avez un ordinateur, vous désirez apprendre à écrire des programme et êtes totalement ou partiellement débutant dans le domaine."
+excerpt: "Ce formation est orienté vers la pratique, et couvre l’apprentissage de la programmation de base, d’une part en montrant et expliquant les concepts grâce à des explications simples, et d’autre part en vous demandant de mettre ces concepts en pratique d’abord de façon guidée et ensuite autonome. Des quiz, un projet individuel, et de nombreux exercices à réaliser vous permettent de valider votre apprentissage."
+target: "Vous avez un ordinateur, vous désirez apprendre à écrire des programme en étant totalement ou partiellement débutant dans le domaine, alors cette formation est faites pour vous."
 price: 30 000 Fr CFA
 sale: 35 000 Fr CFA
 start: 31 Août 2020
@@ -16,32 +16,66 @@ image:
     feature: python.png
 ---
 
-<p class="text-muted text-uppercase h4 border-bottom py-3">ce que vous apprendre</p>
+<p class="text-muted text-uppercase h4 border-bottom py-3">
+A la fin de cette formation, vous serez capable de </p>
 
-Todos as descrições das pessoas são sobre a humanidade do atendimento, a pessoa pega no pulso, examina, olha com carinho. Então eu acho que vai ter outra coisa, que os médicos cubanos trouxeram pro brasil, um alto grau de humanidade.
-E nós criamos um programa que eu queria falar para vocês, que é o Ciência sem Fronteiras. Por que eu queria falar do Ciência sem Fronteiras para vocês? É que em todas as demais... porque nós vamos fazer agora o Ciência sem Fronteiras 2. O 1 é o 100 000, mas vai ter de continuar fazendo Ciência sem Fronteiras no Brasil
+* Installer **Python** sur n'importe quel système d'exploitation
+* Installer et travailler avec un environnement virtuel
+* Écrire un **algorithme via les pseudo-codes**
+* Comprendre le vocabulaire du langage Python 
+* Reconnaître la **synthaxe de base du langage Python**
+* Manipuler les **structures de contrôles**, les **structures de données** et les fichiers 
+* Définir **définir et appeler une fonction** 
+* Connaître les notions de **modules et packages** en Python.
 
 <p id="about-course" class="text-muted text-uppercase h4 border-bottom py-3">description du cours</p>
 
-Se hoje é o dia das crianças... Ontem eu disse: o dia da criança é o dia da mãe, dos pais, das professoras, mas também é o dia dos animais, sempre que você olha uma criança, há sempre uma figura oculta, que é um cachorro atrás. O que é algo muito importante!
-É interessante que muitas vezes no Brasil, você é, como diz o povo brasileiro, muitas vezes você é criticado por ter o cachorro e, outras vezes, por não ter o mesmo cachorro. Esta é uma crítica interessante que acontece no Brasil
+Vous avez un ordinateur, vous désirez apprendre à écrire des programme en étant totalement ou partiellement débutant dans le domaine, alors cette formation est faites pour vous.
+
+En générale lorsque nous nous lançons dans le monde de la programmation, on commence par une phase théorique dans laquelle on essai de comprendre le principe de fonctionnement dudit langage et tout le jargon informatique associé. Souvent même, bien avant de se lancer on ne sait quel langage apprendre, ce qui très souvent pousse certains à l'abandon dès les premières difficultés de comprehension.
+
+Ce n'est qu'après cela que nous pensons généralement à **<u>réellement pratiquer</u>**.
+
+Mais vu que l'objectif final est de réaliser plus tard des projets ou intégrer des équipes de projet avec ce langage, nous avons donc pris soin de placer cette formation sous le thème de **<u>"J'apprends, je comprends et je pratique"</u>**.
+
+Cette formation est conçue pour toute personne débutante désireuse d'apprendre la programmation de façon pratique afin de monter en compétence.
+
+<p class="text-uppercase h4 justify-content-center d-flex mb-4">
+<a href="#" class="btn btn-md btn-primary" title="inscription">je m'inscris maintenant</a></p>
 
 <p class="text-muted text-uppercase h4 border-bottom py-3">prérequis</p>
 
-A única área que eu acho, que vai exigir muita atenção nossa, e aí eu já aventei a hipótese de até criar um ministério. É na área de... Na área... Eu diria assim, como uma espécie de analogia com o que acontece na área agrícola.
-Eu, para ir, eu faço uma escala. Para voltar, eu faço duas, para voltar para o Brasil. Neste caso agora nós tínhamos uma discussão. Eu tinha que sair de Zurique, podia ir para Boston, ou pra Boston, até porque... vocês vão perguntar, mas é mais longe? Não é não, a Terra é curva, viu?
+Peu de prérequis sont demandés, sachant que la programmation est plus facile pour un esprit logique. Néanmoins, il faut savoir:
+* Lire, écrire et calculer
+* Être à l'aise avec l'ordinateur et le clavier.
 
-<p class="text-muted text-uppercase h4 border-bottom py-3">à la fin de cette formation, vous serez capable de…</p>
+Matériel requis
+L'apprenant doit avoir un ordinateur à sa disposition capable d'accueillir l'environnement de développement gratuit Python : Python3 et PyCharm Community ou PyCharm Edu ou Thonny.
 
-A única área que eu acho, que vai exigir muita atenção nossa, e aí eu já aventei a hipótese de até criar um ministério. É na área de... Na área... Eu diria assim, como uma espécie de analogia com o que acontece na área agrícola.
-Eu, para ir, eu faço uma escala. Para voltar, eu faço duas, para voltar para o Brasil. Neste caso agora nós tínhamos uma discussão. Eu tinha que sair de Zurique, podia ir para Boston, ou pra Boston, até porque... vocês vão perguntar, mas é mais longe? Não é não, a Terra é curva, viu?
+<p class="text-muted text-uppercase h4 border-bottom py-3">
+Validation des acquis</p>
 
-<p class="text-muted text-uppercase h4 border-bottom py-3">coût et certificat de réussite</p>
+Pour valider les acquis durant les formations, un exercice notés sur 200 points comportant:
 
-Eu dou dinheiro pra minha filha. Eu dou dinheiro pra ela viajar, então é... é... Já vivi muito sem dinheiro, já vivi muito com dinheiro. -Jornalista: Coloca esse dinheiro na poupança que a senhora ganha R$10 mil por mês. -Dilma: O que que é R$10 mil?
-A população ela precisa da Zona Franca de Manaus, porque na Zona franca de Manaus, não é uma zona de exportação, é uma zona para o Brasil. Portanto ela
+* des quiz pour valider que les notions ont bien été assimilées,
+* des exercices à réaliser de façon autonome,
+* un mini-projet sous forme de programme individuel,
+* des mini-compétitions en équipe,
 
+vous seront soumis.
 
-<p class="text-muted text-uppercase h4 border-bottom py-3">plan du cours</p>
+<div class="bg-light p-4">
+<p class="text-uppercase h4 border-bottom py-3">coût et certificat de réussite</p>
 
-tem um objetivo, ela evita o desmatamento, que é altamente lucravito. Derrubar arvores da natureza é muito lucrativo!
+Le coût de la formation est de <strong>50 000 Fr CFA</strong>. Ces frais sont ramené à <strong>30 000 Fr CFA</strong> pour toute inscription validée avant le 31 août 2020.
+
+L'inscription est validée après le <strong>paiement de 35%</strong> du côut de la formation avant le 31 août.
+
+Le certificat de réussite de cette formation est délivré à tous les participants ayant suivi régulièrement toutes les sessions et réussi l'ensemble des tests à plus de 65%.
+
+<p class="small py-3 font-italic">Un livre physique sur le langage Python est offert au 03 premiers inscrits avant le 31 Août.</p>
+
+<p class="text-uppercase h4 justify-content-center d-flex">
+<a href="#" class="btn btn-md btn-primary" title="inscription">je m'inscris maintenant</a></p>
+
+</div>

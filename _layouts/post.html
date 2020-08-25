@@ -6,7 +6,7 @@ layout: default
   <div class="container-fluid justify-content-center p-0 mt-5">
     <div class="row no-gutters py-5">
       <div class="col-sm-6 mt-auto mt-sm-0 order-lg-1">
-        <img class="w-75 d-none d-md-block" src="{{ site.baseurl }}/assets/img/{{ page.image.feature }}" alt="{{ page.title }}">
+        <img class="w-100 d-none d-md-block" src="{{ site.baseurl }}/assets/img/{{ page.image.feature }}" alt="{{ page.title }}">
       </div>
 
       <div class="col-sm-12 col-md-6 order-lg-2 showcase-text bg-primary text-white text-center text-sm-left">
@@ -24,7 +24,7 @@ layout: default
         </p>
 
         <p class="py-3 text-uppercase shadow-none">
-          <span><a href="#" class="btn btn-md btn-primary">je m'inscris</a></span>
+          <span><a href="#" target="_blank" class="btn btn-md btn-primary">je m'inscris</a></span>
         </p>
       </div>
     </div>
@@ -33,30 +33,32 @@ layout: default
 
 <section class="container py-4">
   <div class="row">
-    <div class="col-sm-12 col-md-8">
+    <div class="col-sm-12 col-md-8 order-lg-1 order-md-last">
       <article class="mb-2 text-justify lead">
         {{ content }}
       </article>
     </div>
 
-    <div class="col-sm-12 col-md-4">
-      <div class="card mb-2 text-white bg-primary">
+    <div class="col-sm-12 col-md-4 order-lg-2 order-sm-first mb-sm-2">
+      <div class="card mb-2 text-white bg-primary rounded-0">
         <div class="card-body">
           <p class="card-title h4 py-4 border-bottom text-left">Détail sur la formation</p>
           <ul class="list-group list-group-flush text-uppercase text-left h5">
-            <li class="bg-transparent list-group-item border-white py-3"><span><i class="fa fa-calendar mr-2"></i>début: {{ page.start }}</span>
+            <li class="bg-transparent list-group-item border-white py-3"><span><i class="fa fa-calendar mr-2"></i>{{ page.start }}</span>
             </li>
 
-            <li class="bg-transparent list-group-item border-white py-3"><span><i class="fa fa-calendar mr-2"></i>{{ page.time }} &smid; {{ page.hour }}</span>
+            <li class="bg-transparent list-group-item border-white py-3"><span><i class="fa fa-clock mr-2"></i>{{ page.time }} &smid; {{ page.hour }}</span>
             </li>
 
             <li class="list-group-item bg-transparent border-white py-3"><span><i class="fa fa-users mr-2"></i>{{ page.person }}</span></li>
 
-            <li class="list-group-item bg-transparent border-white py-3"><span><i class="fa fa-tags mr-2"></i>{{ page.level }}</span></li>
+            <li class="list-group-item bg-transparent border-white py-3"><span><i class="fa fa-award mr-2"></i>{{ page.level }}</span></li>
 
             <li class="list-group-item bg-transparent border-white py-3"><span><i class="fa fa-location-arrow mr-2"></i>{{ page.location }}</span></li>
 
-            <li class="list-group-item text-uppercase bg-transparent border-white text-center py-4"><a class="btn btn-md btn-light" href="#">je m'inscris</a></li>
+            <li class="list-group-item bg-transparent border-white py-3"><span><i class="fa fa-graduation-cap mr-2"></i>Certificat</span></li>
+
+            <li class="list-group-item text-uppercase bg-transparent border-white text-center py-4"><a class="btn btn-md btn-light" href="#" target="_blank">je m'inscris</a></li>
           </ul>
         </div>
       </div>

@@ -34,8 +34,6 @@ facebook_username: flavien.hugs
 # configuration du build
 #-----------------------
 
-debug: false
-safe: false
 markdown: kramdown
 permalink: /formation/:categories/:year/:month/:title
 
