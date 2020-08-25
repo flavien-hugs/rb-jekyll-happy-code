@@ -34,6 +34,8 @@ facebook_username: flavien.hugs
 # configuration du build
 #-----------------------
 
+encoding: utf-8
+destination: docs
 markdown: kramdown
 permalink: /formation/:categories/:year/:month/:title
 
@@ -50,12 +52,13 @@ sass:
     load_paths:
         - _sass
         - node_modules
+    style: compressed
+
 exclude: 
   - node_modules
   - Makefile
   - readme.md
   - package.json
   - package-lock.json
-  - yarn.lock
 
 livereload: true

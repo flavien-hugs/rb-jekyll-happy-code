@@ -1,4 +1,4 @@
-I"�<p class="text-muted text-uppercase h4 border-bottom py-3">
+I"<p class="text-muted text-uppercase h4 border-bottom py-3">
 A la fin de cette formation, vous serez capable de </p>
 
 <ul>
@@ -53,9 +53,9 @@ Validation des acquis</p>
 <p>vous seront soumis.</p>
 
 <div class="bg-light p-4">
-<p class="text-uppercase h4 border-bottom py-3">coût et certificat de réussite</p>
+<p id="price" class="text-uppercase h4 border-bottom py-3">coût et certificat de réussite</p>
 
-Le coût de la formation est de <strong>50 000 Fr CFA</strong>. Ces frais sont ramené à <strong>30 000 Fr CFA</strong> pour toute inscription validée avant le 31 août 2020.
+Le coût de la formation est de <strong>20 000 Fr CFA</strong>. Ces frais sont ramené à <strong>15 000 Fr CFA</strong> pour toute inscription validée avant le 31 août 2020.
 
 L'inscription est validée après le <strong>paiement de 35%</strong> du côut de la formation avant le 31 août.
 

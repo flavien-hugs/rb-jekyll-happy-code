@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Acquérir les bases essentielles du langage Python
-target: "Vous avez un ordinateur, vous désirez apprendre à écrire des programme en étant totalement ou partiellement débutant dans le domaine, alors cette formation est faites pour vous."
-price: 50 000 Fr CFA
-sale: 40 000 Fr CFA
-start: 05 Septembre 2020
-time: 01 mois
-hour: 120mins/j
+title: Apprendre a s'exprimer en Anglais
+target: "Vous désirez apprendre et créer votre premier site web statique et le mettre en ligne tout étant totalement ou partiellement débutant dans le domaine, alors cette formation est faites pour vous."
+price: 100 000 Fr CFA
+sale: 80 000 Fr CFA
+start: 31 Août 2020
+time: 03 mois
+hour: 90mins/j
 level: débutant
 location: en présentiel
 person: 15 personnes 
-category: [Programmation]
+category: [Langue]
 image:
-    feature: /assets/img/python.png
+    feature: /assets/img/english.jpeg
 ---
 
 <p class="text-muted text-uppercase h4 border-bottom py-3">
@@ -64,11 +64,11 @@ Pour valider les acquis durant les formations, un exercice notés sur 200 points
 vous seront soumis.
 
 <div class="bg-light p-4">
-<p class="text-uppercase h4 border-bottom py-3">coût et certificat de réussite</p>
+<p id="price" class="text-uppercase h4 border-bottom py-3">coût et certificat de réussite</p>
 
 Le coût de la formation est de <strong>{{ page.price }}</strong>. Ces frais sont ramené à <strong>{{ page.sale }}</strong> pour toute inscription validée avant le 31 août 2020.
 
-L'inscription est validée après le <strong>paiement de 20%</strong> du côut de la formation avant le 31 août.
+L'inscription est validée après le <strong>paiement de 35%</strong> du côut de la formation avant le 31 août.
 
 Le certificat de réussite de cette formation est délivré à tous les participants ayant suivi régulièrement toutes les sessions et réussi l'ensemble des tests à plus de 65%.
 
