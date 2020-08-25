@@ -6,7 +6,7 @@ target: "Vous avez un ordinateur, vous désirez apprendre à écrire des program
 price: 30 000 Fr CFA
 sale: 35 000 Fr CFA
 start: 31 Août 2020
-time: 05 semaines
+time: 01 mois
 hour: 02h/j
 level: débutant
 location: en présentiel
