@@ -74,7 +74,7 @@ L'inscription est validée après le <strong>paiement de 35%</strong> du côut d
 
 Le certificat de réussite de cette formation est délivré à tous les participants ayant suivi régulièrement toutes les sessions et réussi l'ensemble des tests à plus de 70%.
 
-<p class="text-uppercase h4 justify-content-center d-flex">
+<p class="text-uppercase h4 justify-content-center d-flex py-5">
 <a href="#" class="btn btn-md btn-primary" title="inscription">je m'inscris maintenant</a></p>
 
 </div>

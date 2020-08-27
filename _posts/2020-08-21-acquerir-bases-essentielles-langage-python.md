@@ -76,6 +76,6 @@ Le certificat de réussite de cette formation est délivré à tous les particip
 <p class="small py-3 font-italic">Un livre physique sur le langage Python est offert au 03 premiers inscrits avant le 31 Août.</p>
 
 <p class="text-uppercase h4 justify-content-center d-flex">
-<a href="#" class="btn btn-md btn-primary" title="inscription">je m'inscris maintenant</a></p>
+<a href="#" class="btn btn-md btn-primary py-5" title="inscription">je m'inscris maintenant</a></p>
 
 </div>
