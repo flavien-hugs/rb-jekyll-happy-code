@@ -43,13 +43,14 @@ Cette formation est conçue pour toute personne débutante désireuse d'apprendr
 <a href="#" class="btn btn-md btn-primary" title="inscription">je m'inscris maintenant</a></p>
 
 <p class="text-muted text-uppercase h4 border-bottom py-3">prérequis</p>
-
-Peu de prérequis sont demandés, sachant que la programmation est plus facile pour un esprit logique. Néanmoins, il faut savoir:
+Ce formation nécessite d'avoir un esprit logique, ainsi que de savoir :
 * Lire, écrire et calculer
 * Être à l'aise avec l'ordinateur et le clavier.
 
+Si ce n’est pas le cas, vous devez apprendre le principe de bases en mathématique et la manipulation d'un ordinateur !
+
 Matériel requis
-L'apprenant doit avoir un ordinateur à sa disposition capable d'accueillir l'environnement de développement gratuit Python : Python3 et PyCharm Community ou PyCharm Edu ou Thonny.
+Pour suivre cette formation, vous devez avoir un ordinateur capable d'accueillir l'environnement de développement gratuit Python : Python3 et PyCharm Community ou PyCharm Edu ou Thonny.
 
 <p class="text-muted text-uppercase h4 border-bottom py-3">
 Validation des acquis</p>

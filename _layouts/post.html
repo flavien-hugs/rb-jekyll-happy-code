@@ -12,11 +12,10 @@ layout: default
       <div class="col-sm-12 col-md-6 order-lg-2 showcase-text bg-primary text-white text-center text-sm-left">
         <h3>{{ page.title }}</h3>
         <p class="font-weight-bold text-uppercase h5 text-white py-2">
-          <span><i class="fas fa-calendar mr-2"></i>
-            début : {{ page.start }}
+          <span><i class="fas fa-calendar mr-1"></i>{{ page.start }}
           </span> &smid;
 
-          <a href="#price" class="text-white"><span><i class="fa fa-check mr-2"></i> {{ page.sale }}
+          <a href="#price" class="text-white"><span><i class="fa fa-wallet mr-1"></i> {{ page.sale }}
           </span></a>
         </p>
         <p class="lead mb-0 text-justify py-2 text-white">
@@ -50,9 +49,7 @@ layout: default
 
   <div class="row">
     <div class="col-sm-12 col-md-8 order-lg-1 order-md-last">
-      <article class="mb-2 text-justify lead">
-        {{ content }}
-      </article>
+      <article class="mb-2 text-justify lead">{{ content }}</article>
     </div>
 
     <div class="col-sm-12 col-md-4 order-lg-2 order-sm-first mb-sm-2">
@@ -70,7 +67,7 @@ layout: default
 
             <li class="list-group-item bg-transparent border-white py-3"><span><i class="fa fa-graduation-cap mr-2"></i>{{ page.level }}</span></li>
 
-            <li class="list-group-item bg-transparent border-white py-3"><span><i class="fa fa-location-arrow mr-2"></i>{{ page.location }}</span></li>
+            <li class="list-group-item bg-transparent border-white py-3"><span><i class="fa fa-map-marked mr-2"></i>{{ page.location }}</span></li>
 
             <li class="list-group-item bg-transparent border-white py-3"><span><i class="fa fa-award mr-2"></i>Attestation de formation</span></li>
 
