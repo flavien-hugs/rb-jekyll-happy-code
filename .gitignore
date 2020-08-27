@@ -1,5 +1,6 @@
 *~
-build
 .sass-cache
-node_modules
 .jekyll-cache
+build
+node_modules
+Gemfile.lock
