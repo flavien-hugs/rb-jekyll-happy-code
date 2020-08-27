@@ -54,6 +54,17 @@ sass:
         - node_modules
     style: compressed
 
+#-----------------------
+# configuration includes
+#-----------------------
+
+includes_dir : _includes
+layouts_dir : _layouts
+
+#-----------------------
+# configuration excludes
+#-----------------------
+
 exclude: 
   - node_modules
   - Makefile

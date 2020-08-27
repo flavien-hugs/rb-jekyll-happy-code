@@ -1,0 +1,72 @@
+I"�<p class="text-dark text-uppercase h4 border-bottom py-3">
+Ce que vous apprendrez </p>
+
+<ul>
+  <li>Installer Jekyll sur n’importe quel système d’exploitation</li>
+  <li>Comprendre le fonctionnement de Jekyll</li>
+  <li>Créer des pages avec la syntaxe Markdown</li>
+  <li>Créer un site internet avec Jekyll</li>
+  <li>Héberger son internet Jekyll sur Github ou n’importe quel serveur commun</li>
+</ul>
+
+<p id="about-course" class="text-dark text-uppercase h4 border-bottom py-3">description du cours</p>
+
+<p><a href="https://www.jekyllrb.com">Jekyll</a> est une bibliothèque ou gem <a href="https://www.ruby-lang.org/fr/">ruby</a> qui permet de générer des sites web statiques à partir de plusieurs fichiers (markdown ou textile). Le principal intérêt d’un tel système est qu’il vous permettra de publier simplement votre site car il génère des fichiers HTML. Il est aussi supporté par Github ce qui vous permettra par exemple de créer et d’héberger gratuitement un site.</p>
+
+<p>Au cours de cette formation vous allez apprendrez les techinques nécessaires pour utiliser Jekyll afin de créer facilement votre propre site web statique.</p>
+
+<p>On va s’initier au générateur de site Jekyll pour comprendre comment ça fonctionne. Puis on découvrira les avantages et inconvénients d’un site statique et comment les contourner.</p>
+
+<p>On apprendra ensuite comment l’installer (sur Mac et Windows), créer des pages web, modifier le thème par défaut et en créer un pour publier son propre site complet sur Internet.</p>
+
+<p>Cette formation évoluera dans le temps pour être la plus clair, accessible et complète possible pour vous tous.</p>
+
+<p>Cette formation est conçue pour toute personne voulant créer un site Internet simple, sans coût et ayant quelques bases du HTML∕CSS.</p>
+
+<p class="text-uppercase h4 justify-content-center d-flex mb-4">
+<a href="#" class="btn btn-md btn-primary" title="inscription">je m'inscris maintenant</a></p>
+
+<p class="text-dark text-uppercase h4 border-bottom py-3">prérequis</p>
+
+<p>Peu de prérequis sont demandés. Néanmoins, il faut savoir les bases en:</p>
+<ul>
+  <li>HTML5∕CSS3 et JavaScript(falcultatif)</li>
+  <li>Ruby/Yaml (Falcultatif - on vous guidera pas à pas)</li>
+</ul>
+
+<p>Matériel requis</p>
+
+<ul>
+  <li>L’apprenant doit avoir un ordinateur à sa disposition capable d’accueillir l’environnement de développement.</li>
+  <li>Un éditeur de texte est recommandé pour suivre la formation.</li>
+</ul>
+
+<p class="text-dark text-uppercase h4 border-bottom py-3">
+Validation des acquis</p>
+
+<p>Pour valider les acquis durant la formation, un exercice notés sur 300 points comportant:</p>
+
+<ul>
+  <li>des quiz pour valider les notions ont bien été assimilées,</li>
+  <li>des exercices à réaliser de façon autonome,</li>
+  <li>un mini-projet a réalisé,</li>
+  <li>des mini-compétitions en équipe</li>
+  <li>un défis à rélever</li>
+</ul>
+
+<p>vous seront soumis.</p>
+
+<div class="bg-light p-4">
+<p id="price" class="text-uppercase h4 border-bottom py-3">coût et certificat de réussite</p>
+
+Le coût de la formation est de <strong>20 000 Fr CFA</strong>. Ces frais sont ramené à <strong>15 000 Fr CFA</strong> pour toute inscription validée avant le 31 août 2020.
+
+L'inscription est validée après le <strong>paiement de 35%</strong> du côut de la formation avant le 31 août.
+
+Le certificat de réussite de cette formation est délivré à tous les participants ayant suivi régulièrement toutes les sessions et réussi l'ensemble des tests à plus de 70%.
+
+<p class="text-uppercase h4 justify-content-center d-flex">
+<a href="#" class="btn btn-md btn-primary" title="inscription">je m'inscris maintenant</a></p>
+
+</div>
+:ET

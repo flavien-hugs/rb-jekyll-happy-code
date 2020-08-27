@@ -4,7 +4,7 @@ layout: default
 
 <aside class="hero d-flex align-items-center showcase bg-light">
   <div class="container-fluid justify-content-center p-0 mt-5">
-    <div class="row no-gutters py-5">
+    <div class="row no-gutters pt-5">
       <div class="col-sm-6 mt-auto mt-sm-0 order-lg-1">
         <img class="w-100 d-none d-md-block" src="{{ site.baseurl }}{{ page.image.feature }}" alt="{{ page.title }}">
       </div>
@@ -31,7 +31,23 @@ layout: default
   </div>
 </aside>
 
-<section class="container py-4">
+<section class="container">
+  <div class="row">
+    <div class="col py-4">
+      <nav ari-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a class="text-primary" href="{{ site.url }}"><i class="fa fa-home"></i></a></li>
+          <li class="breadcrumb-item">
+            <a class="text-primary text-capitalize" href="/formation">formation</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">
+            {% if page.title %}{{ page.title }}{% endif %}
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
   <div class="row">
     <div class="col-sm-12 col-md-8 order-lg-1 order-md-last">
       <article class="mb-2 text-justify lead">
@@ -43,7 +59,7 @@ layout: default
       <div class="card mb-2 text-white bg-primary rounded-0">
         <div class="card-body">
           <p class="card-title h4 py-4 border-bottom text-left">Détail sur la formation</p>
-          <ul class="list-group list-group-flush text-uppercase text-left h5">
+          <ul class="list-group list-group-flush text-uppercase text-left">
             <li class="bg-transparent list-group-item border-white py-3"><span><i class="fa fa-calendar mr-2"></i>{{ page.start }}</span>
             </li>
 
@@ -52,11 +68,11 @@ layout: default
 
             <li class="list-group-item bg-transparent border-white py-3"><span><i class="fa fa-users mr-2"></i>{{ page.person }}</span></li>
 
-            <li class="list-group-item bg-transparent border-white py-3"><span><i class="fa fa-award mr-2"></i>{{ page.level }}</span></li>
+            <li class="list-group-item bg-transparent border-white py-3"><span><i class="fa fa-graduation-cap mr-2"></i>{{ page.level }}</span></li>
 
             <li class="list-group-item bg-transparent border-white py-3"><span><i class="fa fa-location-arrow mr-2"></i>{{ page.location }}</span></li>
 
-            <li class="list-group-item bg-transparent border-white py-3"><span><i class="fa fa-graduation-cap mr-2"></i>Certificat</span></li>
+            <li class="list-group-item bg-transparent border-white py-3"><span><i class="fa fa-award mr-2"></i>Attestation de formation</span></li>
 
             <li class="list-group-item text-uppercase bg-transparent border-white text-center py-4"><a class="btn btn-md btn-light" href="#" target="_blank">je m'inscris</a></li>
           </ul>

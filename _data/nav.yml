@@ -1,0 +1,11 @@
+#-------------------
+# Menu de navigation
+#-------------------
+
+menu:
+
+- title: qui sommes-nous ?
+  url: /a-propos/
+
+- title: nos formations
+  url: /formation/

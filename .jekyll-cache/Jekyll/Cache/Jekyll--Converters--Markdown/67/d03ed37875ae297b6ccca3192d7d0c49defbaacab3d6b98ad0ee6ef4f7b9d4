@@ -1,10 +1,4 @@
----
-layout: default
-title: Qui sommes-nous ?
-permalink: /a-propos/
----
-
-<section class="hero with-pattern py-5 bg-light">
+I"�2<section class="hero with-pattern py-5 bg-light">
     <div class="container py-5 mt-5">
         <div class="row mb-4">
             <div class="col-md-7 mx-auto text-center">
@@ -88,7 +82,7 @@ permalink: /a-propos/
         </div>
     </div>
 </section>
-    
+
 <section class="pulled-up-section">
     <div class="container text-center">
         <div class="card shadow with-pattern-full">
@@ -98,13 +92,13 @@ permalink: /a-propos/
                         <div class="icon-block icon-block-lg mb-4 mx-auto"><svg class="svg-icon text-primary"><use xlink:href="#landline-1"></use></svg>
                         </div>
                         <h3 class="h4">Téléphone</h3>
-                        <ul class="list-unstyled mb-0"><li class="text-muted"><a class="reset-anchor" href="tel:{{ site.tel }}">{{ site.tel }}</a></li></ul>
+                        <ul class="list-unstyled mb-0"><li class="text-muted"><a class="reset-anchor" href="tel:(+225) 51 57 13 96 / 77 27 48 86">(+225) 51 57 13 96 / 77 27 48 86</a></li></ul>
                     </div>
                     <div class="col-md-4 mb-4 mb-lg-0"><div class="icon-block icon-block-lg mb-4 mx-auto"><svg class="svg-icon text-primary">
                     <use xlink:href="#envelope-1"></use></svg></div>
                     <h3 class="h4">Support</h3>
                     <ul class="list-unstyled mb-0">
-                        <li class="text-muted"><a class="reset-anchor" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+                        <li class="text-muted"><a class="reset-anchor" href="mailto:flavienhugs@pm.me">flavienhugs@pm.me</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
@@ -148,7 +142,7 @@ permalink: /a-propos/
                 </blockquote>
                 <footer class="blockquote-footer">
                   <div class="media align-items-center">
-                    <img class="rounded-circle shadow-sm" src="{{ site.baseurl }}/assets/img/client-1.jpg" alt="" width="50">
+                    <img class="rounded-circle shadow-sm" src="/assets/img/client-1.jpg" alt="" width="50" />
                     <div class="media-body ml-3">
                       <h5 class="text-dark mb-0">John Charlez</h5>
                       <cite class="text-gray">Iso client</cite>
@@ -161,7 +155,7 @@ permalink: /a-propos/
                   <p class="blockquote-text text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </blockquote>
                 <footer class="blockquote-footer">
-                  <div class="media align-items-center"><img class="rounded-circle shadow-sm" src="{{ site.baseurl }}/assets/img/client-2.jpg" alt="" width="50">
+                  <div class="media align-items-center"><img class="rounded-circle shadow-sm" src="/assets/img/client-2.jpg" alt="" width="50" />
                     <div class="media-body ml-3">
                       <h5 class="text-dark mb-0">Samantha Lewis</h5>
                       <cite class="text-gray">Iso client</cite>
@@ -174,7 +168,7 @@ permalink: /a-propos/
                   <p class="blockquote-text text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </blockquote>
                 <footer class="blockquote-footer">
-                  <div class="media align-items-center"><img class="rounded-circle shadow-sm" src="{{ site.baseurl }}/assets/img/client-3.jpg" alt="" width="50">
+                  <div class="media align-items-center"><img class="rounded-circle shadow-sm" src="/assets/img/client-3.jpg" alt="" width="50" />
                     <div class="media-body ml-3">
                       <h5 class="text-dark mb-0">Carrie Steiniger</h5>
                       <cite class="text-gray">Iso client</cite>
@@ -235,3 +229,4 @@ permalink: /a-propos/
         </div>
       </div>
     </section>
+:ET

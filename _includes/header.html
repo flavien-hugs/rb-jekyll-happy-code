@@ -10,12 +10,12 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          {% for page in site.pages %}
-            {% if page.title %}
+          {% for item in site.data.nav.menu %}
+            {% if item.title %}
               <li class="nav-item">
-                <a class="nav-link {% if page.title=='Nos formations' %}
+                <a class="nav-link {% if item.title=='nos formations' %}
                 btn btn-primary text-white
-                {% endif %}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                {% endif %}" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
               </li>
             {% endif %}
           {% endfor %}

@@ -175,7 +175,7 @@ strong {
 }
 
 .text-shadow-primary {
-  text-shadow: 2px 2px 2px rgba(12, 218, 144, 0.1);
+  text-shadow: 2px 2px 2px #002580;
 }
 
 .text-decoration-underline {
@@ -1601,7 +1601,7 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(12, 218, 144, 0.5);
+  box-shadow: 0 0 0 0.2rem #0075c1;
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
@@ -1869,8 +1869,8 @@ STYLE SWITCHER FOR DEMO
 
 .btn-outline-primary:hover {
   color: var(--white);
-  background-color: #0CDA90;
-  border-color: #0CDA90;
+  background-color: #0075c1;;
+  border-color:#0075c1;;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {

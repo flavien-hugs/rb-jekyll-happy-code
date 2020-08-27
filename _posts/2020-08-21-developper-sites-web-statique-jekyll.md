@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Transformez votre texte en clair en sites web et blogs statiques.
-target: "Vous désirez apprendre et créer votre premier site web statique et le mettre en ligne tout étant totalement ou partiellement débutant dans le domaine, alors cette formation est faites pour vous."
+title: Apprendre à créer des sites web statiques avec Jekyll.
+target: "Vous désirez apprendre à créer votre premier site web statique et le mettre en ligne tout étant totalement débutant, alors cette formation est faites pour vous."
 price: 20 000 Fr CFA
 sale: 15 000 Fr CFA
 start: 31 Août 2020
-time: 01 mois
-hour: 90mins/j
+time: 03 jours/03 Sem 
+hour: 01h/jours
 level: débutant
 location: en présentiel
 person: 15 personnes 
@@ -15,51 +15,53 @@ image:
     feature: /assets/img/jekyll.png
 ---
 
-<p class="text-muted text-uppercase h4 border-bottom py-3">
-A la fin de cette formation, vous serez capable de </p>
+<p class="text-dark text-uppercase h4 border-bottom py-3">
+Ce que vous apprendrez </p>
 
-* Installer **Python** sur n'importe quel système d'exploitation
-* Installer et travailler avec un environnement virtuel
-* Écrire un **algorithme via les pseudo-codes**
-* Comprendre le vocabulaire du langage Python 
-* Reconnaître la **synthaxe de base du langage Python**
-* Manipuler les **structures de contrôles**, les **structures de données** et les fichiers 
-* Définir **définir et appeler une fonction** 
-* Connaître les notions de **modules et packages** en Python.
+* Installer Jekyll sur n'importe quel système d'exploitation
+* Comprendre le fonctionnement de Jekyll
+* Créer des pages avec la syntaxe Markdown
+* Créer un site internet avec Jekyll
+* Héberger son internet Jekyll sur Github ou n'importe quel serveur commun
 
-<p id="about-course" class="text-muted text-uppercase h4 border-bottom py-3">description du cours</p>
+<p id="about-course" class="text-dark text-uppercase h4 border-bottom py-3">description du cours</p>
 
-Vous avez un ordinateur, vous désirez apprendre à écrire des programme en étant totalement ou partiellement débutant dans le domaine, alors cette formation est faites pour vous.
+[Jekyll](https://www.jekyllrb.com) est une bibliothèque ou gem [ruby](https://www.ruby-lang.org/fr/) qui permet de générer des sites web statiques à partir de plusieurs fichiers (markdown ou textile). Le principal intérêt d'un tel système est qu'il vous permettra de publier simplement votre site car il génère des fichiers HTML. Il est aussi supporté par Github ce qui vous permettra par exemple de créer et d'héberger gratuitement un site.
 
-En générale lorsque nous nous lançons dans le monde de la programmation, on commence par une phase théorique dans laquelle on essai de comprendre le principe de fonctionnement dudit langage et tout le jargon informatique associé. Souvent même, bien avant de se lancer on ne sait quel langage apprendre, ce qui très souvent pousse certains à l'abandon dès les premières difficultés de comprehension.
+Au cours de cette formation vous allez apprendrez les techinques nécessaires pour utiliser Jekyll afin de créer facilement votre propre site web statique.
 
-Ce n'est qu'après cela que nous pensons généralement à **<u>réellement pratiquer</u>**.
+On va s'initier au générateur de site Jekyll pour comprendre comment ça fonctionne. Puis on découvrira les avantages et inconvénients d'un site statique et comment les contourner.
 
-Mais vu que l'objectif final est de réaliser plus tard des projets ou intégrer des équipes de projet avec ce langage, nous avons donc pris soin de placer cette formation sous le thème de **<u>"J'apprends, je comprends et je pratique"</u>**.
+On apprendra ensuite comment l'installer (sur Mac et Windows), créer des pages web, modifier le thème par défaut et en créer un pour publier son propre site complet sur Internet.
 
-Cette formation est conçue pour toute personne débutante désireuse d'apprendre la programmation de façon pratique afin de monter en compétence.
+Cette formation évoluera dans le temps pour être la plus clair, accessible et complète possible pour vous tous.
+
+Cette formation est conçue pour toute personne voulant créer un site Internet simple, sans coût et ayant quelques bases du HTML∕CSS.
 
 <p class="text-uppercase h4 justify-content-center d-flex mb-4">
 <a href="#" class="btn btn-md btn-primary" title="inscription">je m'inscris maintenant</a></p>
 
-<p class="text-muted text-uppercase h4 border-bottom py-3">prérequis</p>
+<p class="text-dark text-uppercase h4 border-bottom py-3">prérequis</p>
 
-Peu de prérequis sont demandés, sachant que la programmation est plus facile pour un esprit logique. Néanmoins, il faut savoir:
-* Lire, écrire et calculer
-* Être à l'aise avec l'ordinateur et le clavier.
+Peu de prérequis sont demandés. Néanmoins, il faut savoir les bases en:
+* HTML5∕CSS3 et JavaScript(falcultatif)
+* Ruby/Yaml (Falcultatif - on vous guidera pas à pas)
 
 Matériel requis
-L'apprenant doit avoir un ordinateur à sa disposition capable d'accueillir l'environnement de développement gratuit Python : Python3 et PyCharm Community ou PyCharm Edu ou Thonny.
 
-<p class="text-muted text-uppercase h4 border-bottom py-3">
+* L'apprenant doit avoir un ordinateur à sa disposition capable d'accueillir l'environnement de développement.
+* Un éditeur de texte est recommandé pour suivre la formation.
+
+<p class="text-dark text-uppercase h4 border-bottom py-3">
 Validation des acquis</p>
 
-Pour valider les acquis durant les formations, un exercice notés sur 200 points comportant:
+Pour valider les acquis durant la formation, un exercice notés sur 300 points comportant:
 
-* des quiz pour valider que les notions ont bien été assimilées,
+* des quiz pour valider les notions ont bien été assimilées,
 * des exercices à réaliser de façon autonome,
-* un mini-projet sous forme de programme individuel,
-* des mini-compétitions en équipe,
+* un mini-projet a réalisé,
+* des mini-compétitions en équipe
+* un défis à rélever
 
 vous seront soumis.
 
@@ -70,9 +72,7 @@ Le coût de la formation est de <strong>{{ page.price }}</strong>. Ces frais son
 
 L'inscription est validée après le <strong>paiement de 35%</strong> du côut de la formation avant le 31 août.
 
-Le certificat de réussite de cette formation est délivré à tous les participants ayant suivi régulièrement toutes les sessions et réussi l'ensemble des tests à plus de 65%.
-
-<p class="small py-3 font-italic">Un livre physique sur le langage Python est offert au 03 premiers inscrits avant le 31 Août.</p>
+Le certificat de réussite de cette formation est délivré à tous les participants ayant suivi régulièrement toutes les sessions et réussi l'ensemble des tests à plus de 70%.
 
 <p class="text-uppercase h4 justify-content-center d-flex">
 <a href="#" class="btn btn-md btn-primary" title="inscription">je m'inscris maintenant</a></p>

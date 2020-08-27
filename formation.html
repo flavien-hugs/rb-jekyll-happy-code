@@ -1,11 +1,12 @@
 ---
 layout: default
 title: Nos formations
+permalink: /formation/
 ---
 
 <aside class="hero d-flex align-items-center showcase">
   <div class="container-fluid justify-content-center p-0 mt-5">
-    <div class="row no-gutters py-5">
+    <div class="row no-gutters pt-5">
       <div class="col-sm-7 mt-auto mt-sm-0 order-lg-1">
         <img class="w-100 d-none d-md-block" src="{{ site.baseurl }}/assets/img/lms.png" alt="{{ page.title }}">
       </div>
@@ -19,10 +20,20 @@ title: Nos formations
   </div>
 </aside>
 
-<section class="container py-4">
+<section class="container">
     <div class="row">
-        <div class="col pt-2 pb-2">
-            <p><b>nb</b> Formations trouvées</p>
+        <div class="col py-4">
+            <nav ari-label="breadcrumb">
+                <ol class="breadcrumb text-primary">
+                    <li class="breadcrumb-item"><a href="{{ site.url }}"><i class="fa fa-home"></i></a></li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                      {% if page.title %}
+                        <span class="text-primary">
+                        {{ page.title }}</span>
+                      {% endif %}
+                  </li>
+              </ol>
+            </nav>
         </div>
     </div>
     <div class="row justify-content-center">
@@ -50,7 +61,7 @@ title: Nos formations
                             </h4>
 
                             <p class="card-text">
-                            {{ post.excerpt | strip_html | strip_newlines }}</p>
+                            {{ post.excerpt | strip_html | strip_newlines | truncatewords: "120" }}</p>
 
                             <span class="badge badge-primary text-uppercase mb-2 p-2 border-0">{{ post.level }}</span>
 
