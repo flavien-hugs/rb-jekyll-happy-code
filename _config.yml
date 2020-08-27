@@ -59,7 +59,7 @@ jekyll-minifier:
   compress_javascript: true 
 
 paginate: 20
-paginate_path: "/formation/:num"
+paginate_path: "/formation/page:num"
 
 sass:
     load_paths:

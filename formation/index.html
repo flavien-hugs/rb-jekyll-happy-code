@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Nos formations
-permalink: /formation/
 ---
 
 <aside class="hero d-flex align-items-center showcase">
@@ -39,7 +38,8 @@ permalink: /formation/
     <div class="row justify-content-center">
         <div class="container mb-2">
             <div class="row">
-                {% for post in site.posts limit: 20 %}
+                <!-- paginated posts -->
+                {% for post in paginator.posts %}
                 <div class="col-sm-6 col-md-4 mb-3">
                     <div class="card h-100 border">
                         <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
@@ -73,6 +73,9 @@ permalink: /formation/
                 </div>
                 {% endfor %}
             </div>
+
+            <!-- Pagination links -->
+            {% include paginate.html %}
         </div>
     </div>
 </section>
