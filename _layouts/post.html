@@ -36,9 +36,9 @@ layout: default
     <div class="col py-4">
       <nav ari-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a class="text-primary" href="{{ site.url }}"><i class="fa fa-home"></i></a></li>
+          <li class="breadcrumb-item"><a class="text-primary" href="{{ site.baseurl }}"><i class="fa fa-home"></i></a></li>
           <li class="breadcrumb-item">
-            <a class="text-primary text-capitalize" href="/formation">formation</a>
+            <a class="text-primary text-capitalize" href="{{ site.baseurl }}/formation">formation</a>
           </li>
           <li class="breadcrumb-item active" aria-current="page">
             {% if page.title %}{{ page.title }}{% endif %}
