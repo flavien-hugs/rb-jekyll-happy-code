@@ -15,9 +15,9 @@ url: ""
 description: "Plateforme de formation à l'outil informatique
 et d'initiation à l'anglais."
 keywords: [
-    "apprendre l'informatique", "initiation à l'informatique",
-    "Python3", "HTML", "CSS", "HTML5", "CSS3", "JavaScript",
-    "Twitter Bootstrap", Markdown"
+    'apprendre informatique', 'initiation informatique',
+    'Python', 'HTML', 'CSS', 'JavaScript', 'Jekyll',
+    'Twitter Bootstrap', 'Bootstrap', 'Markdown',
 ]
 
 timezone: Africa/Nairobi
@@ -35,7 +35,7 @@ facebook_username: flavien.hugs
 #-----------------------
 
 encoding: utf-8
-destination: docs
+destination: build
 markdown: kramdown
 permalink: /formation/:categories/:year/:month/:title
 
@@ -45,6 +45,16 @@ permalink: /formation/:categories/:year/:month/:title
 
 plugins:
     - jekyll-paginate
+    - jekyll-minifier
+
+jekyll-minifier:
+  exclude: 'atom.xml'
+  uglifier_args:
+    harmony: true
+  remove_spaces_inside_tags: true
+  remove_multi_spaces: true
+  compress_javascript: true 
+
 paginate: 20
 paginate_path: "/formation/:num"
 
