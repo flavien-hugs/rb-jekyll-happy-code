@@ -10,4 +10,6 @@ gem "jekyll", ENV['JEKYLL_VERSION'] ? "~>#{ENV['JEKYLL_VERSION']}" : nil
 group :jekyll_plugins do
     gem 'jekyll-paginate'
     gem 'jekyll-minifier'
+    gem 'jekyll-sitemap'
+    gem 'jekyll-seo-tag'
 end

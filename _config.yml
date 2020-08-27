@@ -46,6 +46,8 @@ permalink: /formation/:categories/:year/:month/:title
 plugins:
     - jekyll-paginate
     - jekyll-minifier
+    - jekyll-sitemap
+    - jekyll-seo-tag
 
 jekyll-minifier:
   exclude: 'atom.xml'
