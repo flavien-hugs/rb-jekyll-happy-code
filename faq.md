@@ -10,7 +10,7 @@ permalink: /faq/
           <div class="col-md-7 mx-auto text-center">
             <p class="h6 text-uppercase text-primary">{{ page.title }}</p>
             <h1>We’d love to hear from you</h1>
-            *<p class="text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
           </div>
         </div>
     </div>
