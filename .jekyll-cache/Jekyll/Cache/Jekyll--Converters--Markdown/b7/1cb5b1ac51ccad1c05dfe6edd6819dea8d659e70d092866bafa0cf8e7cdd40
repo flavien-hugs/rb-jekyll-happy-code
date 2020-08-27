@@ -1,4 +1,4 @@
-I"Á2<section class="hero with-pattern py-5 bg-light">
+I"?3<section class="hero with-pattern py-5 bg-light">
     <div class="container py-5 mt-5">
         <div class="row mb-4">
             <div class="col-md-7 mx-auto text-center">
@@ -142,7 +142,7 @@
                 </blockquote>
                 <footer class="blockquote-footer">
                   <div class="media align-items-center">
-                    <img class="rounded-circle shadow-sm" src="/assets/img/client-1.jpg" alt="" width="50" />
+                    <img class="rounded-circle shadow-sm" src="https://flavien-hugs.github.io/happyCoding/assets/img/client-1.jpg" alt="" width="50" />
                     <div class="media-body ml-3">
                       <h5 class="text-dark mb-0">John Charlez</h5>
                       <cite class="text-gray">Iso client</cite>
@@ -155,7 +155,7 @@
                   <p class="blockquote-text text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </blockquote>
                 <footer class="blockquote-footer">
-                  <div class="media align-items-center"><img class="rounded-circle shadow-sm" src="/assets/img/client-2.jpg" alt="" width="50" />
+                  <div class="media align-items-center"><img class="rounded-circle shadow-sm" src="https://flavien-hugs.github.io/happyCoding/assets/img/client-2.jpg" alt="" width="50" />
                     <div class="media-body ml-3">
                       <h5 class="text-dark mb-0">Samantha Lewis</h5>
                       <cite class="text-gray">Iso client</cite>
@@ -168,7 +168,7 @@
                   <p class="blockquote-text text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </blockquote>
                 <footer class="blockquote-footer">
-                  <div class="media align-items-center"><img class="rounded-circle shadow-sm" src="/assets/img/client-3.jpg" alt="" width="50" />
+                  <div class="media align-items-center"><img class="rounded-circle shadow-sm" src="https://flavien-hugs.github.io/happyCoding/assets/img/client-3.jpg" alt="" width="50" />
                     <div class="media-body ml-3">
                       <h5 class="text-dark mb-0">Carrie Steiniger</h5>
                       <cite class="text-gray">Iso client</cite>
