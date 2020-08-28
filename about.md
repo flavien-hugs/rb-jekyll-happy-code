@@ -9,70 +9,63 @@ permalink: /a-propos/
         <div class="row mb-4">
             <div class="col-md-7 mx-auto text-center">
                 <p class="h6 text-uppercase text-primary">Qui sommes-nous ?</p>
-                <h1>The power of business</h1>
-                <p class="text-muted"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h1>A propos de "Je Me Forme"</h1>
+                <p class="text-muted">Besoin d'en savoir plus sur notre entreprise, ce que nous faisons et des services que nous faisons ?</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row text-justify">
             <div class="col-md-6">
-                <h4>We’re a global stakeholder relations and partnership building consultancy.</h4>
-                <p class="text-muted">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="lead"><strong>Je Me Forme</strong> est un service de formation proposé par Cyber Indice. Créée en Janvier 2017 par Mr Nanou, l'un des cofondateur et Président-Directeur Général.</p>
             </div>
             <div class="col-md-6">
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam.</p>
-                <p class="text-muted text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p class="lead">Elle est spécialisée dans la conception des technologies de l’éducation et dans l’ingénierie pédagogique dans lesquelles l’équipe exécutive a plus de dix-huit (10) années d’expérience cumulée.</p>
             </div>
         </div>
     </div>
 </section>
 
-<section class="pulled-up-section">
-    <div class="container">
-        <div class="card shadow-lg bg-primary text-white with-pattern-full">
-            <div class="card-body p-lg-5">
-                <div class="row py-4">
-                    <div class="col-lg-4 mb-4 mb-lg-0">
-                        <div class="media">
-                            <div class="icon-block">
-                                <svg class="svg-icon text-white svg-icon-sm"><use xlink:href="#stack-1"> </use>
-                                </svg>
-                            </div>
-                            <div class="media-body ml-3">
-                                <h5 class="mb-2">Simplicity And Choice</h5><p class="text-small">Lorem ipsum dolor sit amet, conse ctetur dolor adipisicing elit.</p>
-                                <ul class="list-check list-check-white mb-0 text-small font-weight-normal"><li class="mb-1">Cost Accounting Fundamentals</li><li class="mb-1">Corporate Cash Management</li><li class="mb-1">SEO Optimization Services</li><li class="mb-1">Company Brand Solutions</li></ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-4 mb-lg-0">
-                        <div class="media">
-                            <div class="icon-block">
-                                <svg class="svg-icon text-white svg-icon-sm"><use xlink:href="#quality-1"> </use>
-                                </svg>
-                            </div>
-                            <div class="media-body ml-3">
-                                <h5 class="mb-2">Worry-Free Experience</h5><p class="text-small">Lorem ipsum dolor sit amet, conse ctetur dolor adipisicing elit.</p>
-                                <ul class="list-check list-check-white mb-0 text-small font-weight-normal"><li class="mb-1">Cost Accounting Fundamentals</li><li class="mb-1">Corporate Cash Management</li><li class="mb-1">SEO Optimization Services</li><li class="mb-1">Company Brand Solutions</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="media">
-                            <div class="icon-block">
-                                <svg class="svg-icon text-white svg-icon-sm"><use xlink:href="#configuration-1"> </use>
-                                </svg>
-                            </div>
-                            <div class="media-body ml-3">
-                                <h5 class="mb-2">Performance That Scale</h5>
-                                <p class="text-small">Lorem ipsum dolor sit amet, conse ctetur dolor adipisicing elit.
-                                </p>
-                                <ul class="list-check list-check-white mb-0 text-small font-weight-normal"><li class="mb-1">Cost Accounting Fundamentals</li><li class="mb-1">Corporate Cash Management</li><li class="mb-1">SEO Optimization Services</li><li class="mb-1">Company Brand Solutions</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<section class="bg-primary text-white with-pattern-full">
+    <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="media align-items-center">
+              <div class="icon-block icon-block-lg bg-white shadow">
+                <svg class="svg-icon text-primary">
+                  <use xlink:href="#mental-health-1"> </use>
+                </svg>
+              </div>
+              <div class="media-body ml-3">
+                <h5>Partages d'idées</h5>
+                <p class="text-small mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="media align-items-center">
+              <div class="icon-block icon-block-lg bg-white shadow">
+                <svg class="svg-icon text-primary">
+                  <use xlink:href="#quality-1"> </use>
+                </svg>
+              </div>
+              <div class="media-body ml-3">
+                <h5>Formation de qualité</h5>
+                <p class="text-small mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="media align-items-center">
+              <div class="icon-block icon-block-lg bg-white shadow">
+                <svg class="svg-icon text-primary">
+                  <use xlink:href="#paper-stack-1"> </use>
+                </svg>
+              </div>
+              <div class="media-body ml-3">
+                <h5>Conception d'application</h5>
+                <p class="text-small mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
 </section>
@@ -82,17 +75,17 @@ permalink: /a-propos/
         <div class="row">
           <div class="col-md-7 mx-auto text-center">
             <p class="h6 text-uppercase text-primary">Contatez-nous</p>
-            <h1>We’d love to hear from you</h1>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <h4>Nous aimerions avoir de vos nouvelles</h4>
+            <p class="text-muted">Appelez-nous, laissez-nous un mail ou venez nous rendre visite dans nos locaux. Nous sommes disponible pour tout échange.</p>
           </div>
         </div>
     </div>
 </section>
     
-<section class="pulled-up-section">
+<section class="pulled-up-section pb-5">
     <div class="container text-center">
         <div class="card shadow with-pattern-full">
-            <div class="card-body py-5 p-md-5 index-forward">
+            <div class="card-body index-forward">
                 <div class="row">
                     <div class="col-md-4 mb-4 mb-lg-0">
                         <div class="icon-block icon-block-lg mb-4 mx-auto"><svg class="svg-icon text-primary"><use xlink:href="#landline-1"></use></svg>
@@ -102,7 +95,7 @@ permalink: /a-propos/
                     </div>
                     <div class="col-md-4 mb-4 mb-lg-0"><div class="icon-block icon-block-lg mb-4 mx-auto"><svg class="svg-icon text-primary">
                     <use xlink:href="#envelope-1"></use></svg></div>
-                    <h3 class="h4">Support</h3>
+                    <h3 class="h4">Email</h3>
                     <ul class="list-unstyled mb-0">
                         <li class="text-muted"><a class="reset-anchor" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
                     </ul>
@@ -130,108 +123,4 @@ permalink: /a-propos/
     </div>
 </section>-->
 
-<section class="bg-light py-5">
-      <div class="container pt-5">
-        <div class="row">
-          <div class="col-lg-7 mx-auto text-center">
-            <p class="h6 text-primary text-uppercase">quelques témoignages</p>
-            <h2>Ce que disent nos clients de nos services</h2>
-            <p class="text-muted mb-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</p>
-          </div>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-lg-6 mb-5 mb-lg-0">
-            <div class="testimonials-slider owl-carousel owl-theme owl-dots-left">
-              <div class="item">
-                <blockquote class="blockquote border-0 p-0">
-                  <p class="blockquote-text text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </blockquote>
-                <footer class="blockquote-footer">
-                  <div class="media align-items-center">
-                    <img class="rounded-circle shadow-sm" src="{{ site.baseurl }}/assets/img/client-1.jpg" alt="" width="50">
-                    <div class="media-body ml-3">
-                      <h5 class="text-dark mb-0">John Charlez</h5>
-                      <cite class="text-gray">Iso client</cite>
-                    </div>
-                  </div>
-                </footer>
-              </div>
-              <div class="item">
-                <blockquote class="blockquote border-0 p-0">
-                  <p class="blockquote-text text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </blockquote>
-                <footer class="blockquote-footer">
-                  <div class="media align-items-center"><img class="rounded-circle shadow-sm" src="{{ site.baseurl }}/assets/img/client-2.jpg" alt="" width="50">
-                    <div class="media-body ml-3">
-                      <h5 class="text-dark mb-0">Samantha Lewis</h5>
-                      <cite class="text-gray">Iso client</cite>
-                    </div>
-                  </div>
-                </footer>
-              </div>
-              <div class="item">
-                <blockquote class="blockquote border-0 p-0">
-                  <p class="blockquote-text text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </blockquote>
-                <footer class="blockquote-footer">
-                  <div class="media align-items-center"><img class="rounded-circle shadow-sm" src="{{ site.baseurl }}/assets/img/client-3.jpg" alt="" width="50">
-                    <div class="media-body ml-3">
-                      <h5 class="text-dark mb-0">Carrie Steiniger</h5>
-                      <cite class="text-gray">Iso client</cite>
-                    </div>
-                  </div>
-                </footer>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-5 ml-auto">
-            <div class="row">
-              <div class="col-lg-6 col-6 mb-4">
-                <div class="card shadow">
-                  <div class="card-body text-center">
-                    <svg class="svg-icon text-primary mb-3">
-                      <use xlink:href="#user-1"> </use>
-                    </svg>
-                    <h3 class="mb-1">1600</h3>
-                    <p class="text-muted mb-0">Active users</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 col-6 mb-4">
-                <div class="card shadow">
-                  <div class="card-body text-center">
-                    <svg class="svg-icon text-primary mb-3">
-                      <use xlink:href="#destination-map-1"> </use>
-                    </svg>
-                    <h3 class="mb-1">2500</h3>
-                    <p class="text-muted mb-0">Global clients</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 col-6">
-                <div class="card shadow">
-                  <div class="card-body text-center">
-                    <svg class="svg-icon text-primary mb-3">
-                      <use xlink:href="#quality-1"> </use>
-                    </svg>
-                    <h3 class="mb-1">215</h3>
-                    <p class="text-muted mb-0">Win award</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 col-6">
-                <div class="card shadow">
-                  <div class="card-body text-center">
-                    <svg class="svg-icon text-primary mb-3">
-                      <use xlink:href="#sales-up-1"> </use>
-                    </svg>
-                    <h3 class="mb-1">2150</h3>
-                    <p class="text-muted mb-0">Client satisfaction</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+{% include testimonial.html %}

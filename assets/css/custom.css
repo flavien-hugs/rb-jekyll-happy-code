@@ -970,19 +970,6 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
   position: relative;
 }
 
-.with-pattern::before {
-  content: '';
-  display: block;
-  width: 40vw;
-  padding-bottom: 15%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: url(../img/pattern.svg) repeat;
-  background-size: 20rem;
-  background-position: top left;
-  opacity: 0.07;
-}
 
 .with-pattern-full {
   position: relative;
