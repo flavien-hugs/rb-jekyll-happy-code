@@ -3235,3 +3235,21 @@ code {
     margin-left: 15px;
   }
 }
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.social-link {
+  color: var(--white);
+  background: #00e676;
+  display: block;
+  transition: all 0.3s;
+}
+
+.social-link:hover, .social-link:focus {
+  color: var(--white); text-decoration: none;
+}

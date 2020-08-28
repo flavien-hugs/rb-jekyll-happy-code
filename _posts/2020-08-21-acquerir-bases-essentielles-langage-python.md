@@ -15,8 +15,7 @@ image:
     feature: /assets/img/python.png
 ---
 
-<p class="text-muted text-uppercase h4 border-bottom py-3">
-A la fin de cette formation, vous serez capable de </p>
+<p class="text-muted text-uppercase h4 border-bottom py-3">Vous allez apprendre à : </p>
 
 * Installer **Python** sur n'importe quel système d'exploitation
 * Installer et travailler avec un environnement virtuel
@@ -39,8 +38,9 @@ Mais vu que l'objectif final est de réaliser plus tard des projets ou intégrer
 
 Cette formation est conçue pour toute personne débutante désireuse d'apprendre la programmation de façon pratique afin de monter en compétence.
 
-<p class="text-uppercase h4 justify-content-center d-flex mb-4">
-<a href="#" class="btn btn-md btn-primary" title="inscription">je m'inscris maintenant</a></p>
+<!-- inscription -->
+{% include register.html %}
+
 
 <p class="text-muted text-uppercase h4 border-bottom py-3">prérequis</p>
 Ce formation nécessite d'avoir un esprit logique, ainsi que de savoir :
@@ -73,9 +73,7 @@ L'inscription est validée après le <strong>paiement de 20%</strong> du côut d
 
 Le certificat de réussite de cette formation est délivré à tous les participants ayant suivi régulièrement toutes les sessions et réussi l'ensemble des tests à plus de 65%.
 
+<!-- inscription -->
+{% include register.html %}
+
 <p class="small py-3 font-italic">Un livre physique sur le langage Python est offert au 03 premiers inscrits avant le 31 Août.</p>
-
-<p class="text-uppercase h4 justify-content-center d-flex">
-<a href="#" class="btn btn-md btn-primary py-5" title="inscription">je m'inscris maintenant</a></p>
-
-</div>
