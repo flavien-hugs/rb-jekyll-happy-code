@@ -4,6 +4,7 @@ title: Qui sommes-nous ?
 permalink: /a-propos/
 ---
 
+<div class="transition-fade" id="swup">
 <section class="hero with-pattern py-5 bg-light">
     <div class="container py-5 mt-5">
         <div class="row mb-4">
@@ -124,3 +125,4 @@ permalink: /a-propos/
 </section>-->
 
 {% include testimonial.html %}
+</div>

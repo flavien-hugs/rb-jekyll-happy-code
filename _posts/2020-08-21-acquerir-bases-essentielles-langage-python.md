@@ -15,6 +15,7 @@ image:
     feature: /assets/img/python.png
 ---
 
+
 <p class="text-muted text-uppercase h4 border-bottom py-3">Vous allez apprendre à : </p>
 
 * Installer **Python** sur n'importe quel système d'exploitation

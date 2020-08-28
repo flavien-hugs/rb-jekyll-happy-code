@@ -4,6 +4,7 @@ title: F.A.Q
 permalink: /faq/
 ---
 
+<div class="transition-fade" id="swup">
 <section class="hero with-pattern pt-5">
     <div class="container pt-5 my-5">
         <div class="row">
@@ -44,3 +45,4 @@ permalink: /faq/
         </div>
     </div>
 </section>
+</div>

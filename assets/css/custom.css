@@ -984,7 +984,6 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
   position: absolute;
   top: 0;
   right: 0;
-  background: url(../img/pattern.svg) repeat;
   background-size: 20rem;
   background-position: top left;
   opacity: 0.04;
@@ -3239,4 +3238,13 @@ code {
 
 .social-link:hover, .social-link:focus {
   color: var(--white); text-decoration: none;
+}
+
+.transition-fade {
+  transition: 0.4s;
+  opacity: 1;
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
 }
