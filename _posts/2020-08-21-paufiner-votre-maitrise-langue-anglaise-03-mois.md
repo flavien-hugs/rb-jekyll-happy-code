@@ -4,6 +4,7 @@ title: Paufiner votre maîtrise de la langue anglaise en 03 mois
 target: "Vous désirez apprendre à mieux vous exprimer en anglais sans aucun complexe et aucune difficulté, alors cette formation est faites pour vous."
 price: 100 000 Fr CFA
 sale: 80 000 Fr CFA
+amount: 40%
 start: 31 Août 2020
 time: 03 - 06 mois
 hour: 90mins/j
@@ -13,6 +14,7 @@ person: 15 personnes
 category: [Langue]
 image:
     feature: /assets/img/english.jpeg
+contact: 22551571396
 ---
 
 <p class="text-muted text-uppercase h4 border-bottom py-3">
@@ -57,7 +59,7 @@ vous seront soumis.
 
 Le coût de la formation est de <strong>{{ page.price }}</strong>. Ces frais sont ramené à <strong>{{ page.sale }}</strong> pour toute inscription validée avant le 31 août 2020.
 
-L'inscription est validée après le <strong>paiement de 35%</strong> du côut de la formation avant le 31 août.
+L'inscription est validée après le <strong>paiement de {{ page.amount }}</strong> du côut de la formation avant le 31 août.
 
 Le certificat de réussite de cette formation est délivré à tous les participants ayant suivi régulièrement toutes les sessions et réussi l'ensemble des tests à plus de 65%.
 

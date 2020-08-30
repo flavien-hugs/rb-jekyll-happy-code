@@ -4,15 +4,17 @@ title: Acquérir les bases essentielles du langage Python
 target: "Vous avez un ordinateur, vous désirez apprendre à écrire des programme en étant totalement ou partiellement débutant dans le domaine, alors cette formation est faites pour vous."
 price: 50 000 Fr CFA
 sale: 40 000 Fr CFA
+amount: 50%
 start: 05 Septembre 2020
-time: 01 mois
-hour: 120mins/j
+time: 02 Mois
+hour: 02H/jrs
 level: débutant
 location: en présentiel
 person: 15 personnes 
 category: [Programmation]
 image:
     feature: /assets/img/python.png
+contact: 22551571396
 ---
 
 
@@ -44,7 +46,7 @@ Cette formation est conçue pour toute personne débutante désireuse d'apprendr
 
 
 <p class="text-muted text-uppercase h4 border-bottom py-3">prérequis</p>
-Ce formation nécessite d'avoir un esprit logique, ainsi que de savoir :
+Cette formation nécessite d'avoir un esprit logique, ainsi que de savoir :
 * Lire, écrire et calculer
 * Être à l'aise avec l'ordinateur et le clavier.
 
@@ -70,11 +72,11 @@ vous seront soumis.
 
 Le coût de la formation est de <strong>{{ page.price }}</strong>. Ces frais sont ramené à <strong>{{ page.sale }}</strong> pour toute inscription validée avant le 31 août 2020.
 
-L'inscription est validée après le <strong>paiement de 20%</strong> du côut de la formation avant le 31 août.
+L'inscription est validée après le <strong>paiement de {{ page.amount }}</strong> du côut de la formation avant le 31 août.
 
 Le certificat de réussite de cette formation est délivré à tous les participants ayant suivi régulièrement toutes les sessions et réussi l'ensemble des tests à plus de 65%.
 
 <!-- inscription -->
 {% include register.html %}
 
-<p class="small py-3 font-italic">Un livre physique sur le langage Python est offert au 03 premiers inscrits avant le 31 Août.</p>
+<p class="small py-3 font-italic">Un livre physique sur le langage Python est offert aux 03 premiers inscrits avant le 31 Août.</p>
