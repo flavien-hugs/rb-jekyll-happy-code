@@ -1,7 +1,7 @@
 Gemfile.lock
 build
 docs
-.sass-cache/
-.jekyll-cache/
+.sass-cache
+.jekyll-cache
 node_modules
 *~
