@@ -20,9 +20,12 @@ contact: 22551571396
 
 <p class="text-muted text-uppercase h4 border-bottom py-3">Vous allez apprendre à : </p>
 
-* Poser les bases pour un apprentissage solide
-* Configurer un environnement de travail propre
-* Structurer l'architecture de votre site internet
+* Créer des sites webs avec HTML et CSS;
+* Choisir une solution technique adaptée à votre client et travailler en mode Agile;
+* Créer des applications web dynamiques avec Javascript;
+* Refactoriser du code pour qu’il soit plus moderne et optimisé.
+
+À la fin de cette formation, vous serrez capable de développer une site vitrine de A à Z.
 
 <p id="about-course" class="text-muted text-uppercase h4 border-bottom py-3">description du cours</p>
 
@@ -31,7 +34,7 @@ Vous avez un ordinateur, vous désirez apprendre le metier de développeur front
 Cette formation va vous apprendre pas à pas les technologies HTML5/CSS3 et JavaScript. Outre cela, vous allez apprendre la logique et les mécanismes derrière ces technologies
 afin que vous compreniez ce que vous faîtes et que vous deveniez vite autonomes.
 
-Afin de monter en compétence, nous allons réalisez un portfolio du début à la fin, l'envoyer sur github pour gérer notre code et enfin le mettre en ligne.
+Afin de monter en compétence, la formation serra composée de min-projet que nous enverrons sur github pour gérer notre code et enfin le mettre en ligne, ce qui vous permettra d’acquérir des compétences spécifiques.
 
 Cette formation est conçue pour toute personne débutante désireuse d'apprendre le métier de développeur front-end de façon pratique afin de monter en compétence.
 
