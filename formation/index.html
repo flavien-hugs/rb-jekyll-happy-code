@@ -42,7 +42,7 @@ title: Nos formations
                 <!-- paginated posts -->
                 {% for post in paginator.posts %}
                 <div class="col-sm-6 col-md-4 mb-3">
-                    <div class="card h-100 border">
+                    <div class="card border">
                         <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
                             <img src="{{ site.baseurl }}{{ post.image.feature }}" class="card-img-top img-fluid"
                             alt="{{ post.title }}">
@@ -56,10 +56,10 @@ title: Nos formations
                                 {% endfor %}
                             {% endif %}
 
-                            <h4 class="card-title">
+                            <h5 class="card-title">
                                 <a href="{{ post.url | prepend: site.baseurl }}" class="stretched-link text-decoration-none" style="color:#7551eb;">
                                 {{ post.title | link_to: post.url }}</a>
-                            </h4>
+                            </h5>
 
                             <span class="badge badge-primary text-uppercase mb-2 p-2 border-0">{{ post.level }}</span>
 

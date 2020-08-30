@@ -10,7 +10,7 @@ hour: 120mins/j
 level: débutant
 location: en présentiel
 person: 15 personnes 
-category: [Programmation]
+category: [Bureautique]
 image:
     feature: /assets/img/mso.jpg
 ---
