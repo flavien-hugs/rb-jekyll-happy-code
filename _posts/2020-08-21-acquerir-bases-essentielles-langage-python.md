@@ -2,8 +2,8 @@
 layout: post
 title: Acquérir les bases essentielles du langage Python
 target: "Vous avez un ordinateur, vous désirez apprendre à écrire des programme en étant totalement ou partiellement débutant dans le domaine, alors cette formation est faites pour vous."
-price: 50 000 Fr CFA
-sale: 40 000 Fr CFA
+price: 50 000 Fr
+sale: 40 000 Fr
 amount: 50%
 start: 05 Septembre 2020
 time: 02 Mois

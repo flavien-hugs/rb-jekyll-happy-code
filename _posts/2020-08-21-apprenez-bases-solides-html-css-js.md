@@ -2,8 +2,8 @@
 layout: post
 title: Initiation au métier de développeur front-end
 target: "Vous avez un ordinateur, vous désirez vous lancer dans le domaine développeur front-end en étant totalement débutant, alors cette formation est faites pour vous."
-price: 80 000 Fr CFA
-sale: 50 000 Fr CFA
+price: 80 000 Fr
+sale: 50 000 Fr
 amount: 40%
 start: 05 Septembre 2020
 time: 02 Mois

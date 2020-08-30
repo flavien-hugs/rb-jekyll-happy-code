@@ -2,8 +2,8 @@
 layout: post
 title: Apprendre à créer des sites web statiques avec Jekyll.
 target: "Vous désirez apprendre à créer votre premier site web statique et le mettre en ligne tout étant totalement débutant, alors cette formation est faites pour vous."
-price: 20 000 Fr CFA
-sale: 15 000 Fr CFA
+price: 20 000 Fr
+sale: 15 000 Fr
 amount: 60%
 start: 31 Août 2020
 time: 03 jours/03 Sem 

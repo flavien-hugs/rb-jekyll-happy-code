@@ -2,8 +2,8 @@
 layout: post
 title: Maîtrisez les bases et les bonnes pratiques de Microsoft Office (Word, Excel, PowerPoint)
 target: "Vous avez un ordinateur, vous désirez apprendre à créer et éditer un document Word, créer et manipuler des données ou faire des présentations avec aisance en étant totalement ou partiellement débutant dans le domaine, alors cette formation est faites pour vous."
-price: 50 000 Fr CFA
-sale: 20 000 Fr CFA
+price: 50 000 Fr
+sale: 20 000 Fr
 amount: 50%
 start: 05 Septembre 2020
 time: 03 semaines
