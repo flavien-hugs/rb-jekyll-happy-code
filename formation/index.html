@@ -42,7 +42,7 @@ title: Nos formations
                 <!-- paginated posts -->
                 {% for post in paginator.posts %}
                 <div class="col-sm-6 col-md-4 mb-3">
-                    <div class="card border">
+                    <div class="card h-100 border">
                         <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
                             <img src="{{ site.baseurl }}{{ post.image.feature }}" class="card-img-top img-fluid"
                             alt="{{ post.title }}">
