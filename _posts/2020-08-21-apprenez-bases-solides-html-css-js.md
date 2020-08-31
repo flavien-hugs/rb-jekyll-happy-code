@@ -31,8 +31,7 @@ contact: 22551571396
 
 Vous avez un ordinateur, vous désirez apprendre le metier de développeur front-end, alors cette formation est faites pour vous.
 
-Cette formation va vous apprendre pas à pas les technologies HTML5/CSS3 et JavaScript. Outre cela, vous allez apprendre la logique et les mécanismes derrière ces technologies
-afin que vous compreniez ce que vous faîtes et que vous deveniez vite autonomes.
+Une de mes convictions pédagogiques les plus profondes est qu’on apprend en faisant, et uniquement en faisant. C'est pourquoi, cette formation est organisé autour d’un projet que je développerai au fur et à mesure. Outre cela, vous allez apprendre la logique et les mécanismes derrière ces technologies afin que vous compreniez ce que vous faîtes et que vous deveniez vite autonomes.
 
 Afin de monter en compétence, la formation serra composée de min-projet que nous enverrons sur github pour gérer notre code et enfin le mettre en ligne, ce qui vous permettra d’acquérir des compétences spécifiques.
 

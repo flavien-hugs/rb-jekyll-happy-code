@@ -27,10 +27,10 @@ title: Nos formations
                 <ol class="breadcrumb text-primary">
                     <li class="breadcrumb-item"><a href="{{ site.baseurl }}"><i class="fa fa-home"></i></a></li>
                     <li class="breadcrumb-item active" aria-current="page">
-                      {% if page.title %}
+                      {%- if page.title != "" -%}
                         <span class="text-primary">
-                        {{ page.title }}</span>
-                      {% endif %}
+                        {{ page.title | escape }}</span>
+                      {%- endif -%}
                   </li>
               </ol>
             </nav>
@@ -49,12 +49,12 @@ title: Nos formations
                         </a>
 
                         <div class="card-body card-hover">
-                            {% if post.category.size >=1 %}
+                            {%- if post.category.size >=1 -%}
                                 {% for cat in post.category %}
                                 <span class="badge badge-primary mb-2 p-2"><a href="{{ site.baseurl }}/category#{{ cat }}" title="{{ cat }}" class="text-white">{{ cat }}</a>
                                 </span>
                                 {% endfor %}
-                            {% endif %}
+                            {%- endif -%}
 
                             <h5 class="card-title">
                                 <a href="{{ post.url | prepend: site.baseurl }}" class="stretched-link text-decoration-none" style="color:#7551eb;">

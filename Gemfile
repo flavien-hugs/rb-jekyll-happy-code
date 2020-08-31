@@ -9,6 +9,7 @@ git_source(:github) {
 gem "jekyll"
 
 group :jekyll_plugins do
+    gem 'liquid-c'
     gem 'jekyll-paginate'
     gem 'jekyll-minifier'
     gem 'jekyll-sitemap'
