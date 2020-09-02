@@ -5,7 +5,8 @@ target: "Vous désirez apprendre à mieux vous exprimer en anglais sans aucun co
 price: 100 000 Fr
 sale: 80 000 Fr
 amount: 40%
-start: 31 Août 2020
+start: 31 Août
+deadline: 01 Septembre
 time: 03 - 06 mois
 hour: 90mins/j
 level: débutant
@@ -57,9 +58,9 @@ vous seront soumis.
 <div class="bg-light p-4">
 <p id="price" class="text-uppercase h4 border-bottom py-3">coût et certificat de réussite</p>
 
-Le coût de la formation est de <strong>{{ page.price }}</strong>. Ces frais sont ramené à <strong>{{ page.sale }}</strong> pour toute inscription validée avant le 31 août 2020.
+Le coût de la formation est de <strong>{{ page.price }}</strong>. Ces frais sont ramené à <strong>{{ page.sale }}</strong> pour toute inscription validée avant le {{ page.deadline }}.
 
-L'inscription est validée après le <strong>paiement de {{ page.amount }}</strong> du côut de la formation avant le 31 août.
+L'inscription est validée après le <strong>paiement de {{ page.amount }}</strong> du côut de la formation avant le {{ page.deadline }}.
 
 Le certificat de réussite de cette formation est délivré à tous les participants ayant suivi régulièrement toutes les sessions et réussi l'ensemble des tests à plus de 65%.
 

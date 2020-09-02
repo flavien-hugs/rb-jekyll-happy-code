@@ -5,7 +5,8 @@ target: "Vous avez un ordinateur, vous désirez apprendre à créer et éditer u
 price: 50 000 Fr
 sale: 20 000 Fr
 amount: 50%
-start: 05 Septembre 2020
+start: 05 Septembre
+deadline: 05 Septembre
 time: 03 semaines
 hour: 02H/séances
 level: débutant
@@ -85,7 +86,7 @@ vous seront soumis.
 
 Le coût de la formation est de <strong>{{ page.price }}</strong>. Ces frais sont ramené à <strong>{{ page.sale }}</strong> pour toute inscription validée avant le 31 août 2020.
 
-L'inscription est validée après le <strong>paiement de {{ page.amount }}</strong> du côut de la formation avant le 31 août.
+L'inscription est validée après le <strong>paiement de {{ page.amount }}</strong> du côut de la formation avant le {{ page.deadline }}.
 
 Le certificat de réussite de cette formation est délivré à tous les participants ayant suivi régulièrement toutes les sessions et réussi l'ensemble des tests à plus de 65%.
 

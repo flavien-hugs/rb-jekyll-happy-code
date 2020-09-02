@@ -1,53 +1,47 @@
-<footer class="map-bg">
-  <div class="container border-bottom">
-        <div class="row pt-5">
-          <div class="col-sm-4 col-lg-3 col-md-6 mb-4 mb-lg-0"><img class="mb-3" src="{{ site.baseurl }} /assets/img/logo.svg" alt="" width="80">
-            <ul class="list-unstyled text-muted">
-              <li><a class="reset-anchor text-small" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-              <li><a class="reset-anchor text-small" href="tel:{{ site.tel }}">{{ site.tel }}</a></li>
-            </ul>
-            <ul class="list-inline text-muted">
-              <li class="list-inline-item"><a class="reset-anchor" href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-              <li class="list-inline-item"><a class="reset-anchor" href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fab fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a class="reset-anchor" href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fab fa-github"></i></a></li>
-            </ul>
-          </div>
-          <div class="col-sm-4 col-lg-3 col-md-6 mb-4 mb-lg-0">
-            <h4>Liens utiles</h4>
-            <ul class="list-unstyled text-muted mb-0">
-              <li class="mb-1"><a class="text-small reset-anchor" href="{{ site.baseurl }}/a-propos/">Qui sommes-nous ?</a></li>
-              <li class="mb-1"><a class="text-small reset-anchor" href="{{ site.baseurl }}/faq/">
-                F.A.Q
-              </a></li>
-              <li class="mb-1">
-            </ul>
-          </div>
-          <div class="col-sm-4 col-lg-3 col-md-6 mb-4 mb-lg-0">
-            <h4>Nous rejoindre ?</h4>
-            <ul class="list-unstyled text-muted mb-0">
-              <li class="mb-1"><a class="text-small reset-anchor" href="#">Vous souhaitez rejoindre notre équipe ?</a></li>
-              <li class="mb-1"><a class="text-small reset-anchor" href="#">Support</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-4">
-            <h4>Policy</h4>
-            <ul class="list-unstyled text-muted mb-0">
-              <li class="mb-1"><a class="text-small reset-anchor" href="#">
-                Politique de confidentialité
-              </a></li>
-              <li class="mb-1"><a class="text-small reset-anchor" href="#">Conditions d'utilisation</a></li>
-            </ul>
-          </div>
-        </div>
+<footer class="footer">
+  <div class="container">
+    <div class="row pt-4">
+      <div class="col-sm-4 col-lg-3 col-md-6 mb-4 mb-lg-0"><img class="mb-3" src="{{ site.baseurl }} /assets/img/logo.svg" alt="{{ site.title }}" width="80">
+        <ul class="list-unstyled text-muted">
+          <li><a class="reset-anchor text-small" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><span class="reset-anchor text-small">{{ site.tel }}</span></li>
+        </ul>
       </div>
-  <div class="container py-4">           
+
+      <div class="col-sm-4 col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <h4>Liens utiles</h4>
+        <ul class="list-unstyled text-muted mb-0">
+          <li class="mb-1"><a class="text-small reset-anchor" href="{{ site.baseurl }}/faq/">F.A.Q</a></li>
+          <li class="mb-1"><a class="text-small reset-anchor" href="{{ site.baseurl }}/a-propos/">Qui sommes-nous ?</a></li>
+        </ul>
+      </div>
+
+      <div class="col-sm-4 col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <h4>Condition &amp; Politique</h4>
+        <ul class="list-unstyled text-muted mb-0">
+          <li class="mb-1"><a class="text-small reset-anchor" href="#">Conditions d'utilisation</a></li>
+          <li class="mb-1"><a class="text-small reset-anchor" href="#">Politique de confidentialité</a></li>
+        </ul>
+      </div>
+
+      <div class="col-sm-4 col-lg-3 col-md-6 mb-4">
+        <h4>Suivez-nous sur</h4>
+        <ul class="list-inline text-muted">
+          <li class="list-inline-item"><a class="reset-anchor text-primary" href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+          <li class="list-inline-item"><a class="reset-anchor text-primary" href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li class="list-inline-item"><a class="reset-anchor" href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fab fa-github"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container bg-light border-top py-4">      
     <div class="row text-center">
       <div class="col-lg-6 p-lg-0 text-lg-left">
         <p class="text-muted text-small mb-0">
           &copy; <script> document.write(new Date().getFullYear()); </script> Tous droits réservés.</p>
       </div>
       <div class="col-lg-6 p-lg-0 text-lg-right">
-        <p class="text-muted text-small mb-0">designed by <a class="text-primary reset-anchor" href="https://github.com/{{ site.github_username }}" target="_blank">{{ site.github_username }}</a></p>
+        <p class="text-muted text-small mb-0">Designed by <a class="text-primary reset-anchor" href="https://github.com/{{ site.github_username }}" target="_blank">{{ site.github_username }}</a></p>
       </div>
     </div>
   </div>

@@ -1,0 +1,27 @@
+#---------------------
+# LIST FOR TESTIMONIAL
+#---------------------
+
+data:
+
+- name: Mme Koné
+  profesion: Professeur d'Informatique
+  image: /assets/img/client-1.jpg
+  content: "Lorem ipsum dolor sit amet, consectetur
+    adipisicing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua."
+
+- name: Mme Konan Florence
+  profesion: Secrétaire à la MUGEB
+  image: /assets/img/client-2.jpg
+  content: "Lorem ipsum dolor sit amet, consectetur
+    adipisicing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua."
+
+
+- name: Mme Fofié
+  profesion: Agent de Santé
+  image: /assets/img/client-3.jpg
+  content: "Lorem ipsum dolor sit amet, consectetur
+    adipisicing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua."

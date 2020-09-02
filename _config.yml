@@ -36,7 +36,6 @@ facebook_username: flavien.hugs
 #-----------------------
 
 encoding: utf-8
-destination: build
 markdown: kramdown
 permalink: /formation/:categories/:year/:month/:title
 
@@ -78,10 +77,17 @@ layouts_dir : _layouts
 # configuration excludes
 #-----------------------
 
-exclude: 
-  - node_modules
-  - Makefile
-  - readme.md
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - package.json
   - package-lock.json
 

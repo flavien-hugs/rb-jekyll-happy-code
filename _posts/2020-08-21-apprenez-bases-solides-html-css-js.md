@@ -5,7 +5,8 @@ target: "Vous avez un ordinateur, vous désirez vous lancer dans le domaine dév
 price: 80 000 Fr
 sale: 50 000 Fr
 amount: 40%
-start: 05 Septembre 2020
+start: 05 Septembre
+deadline: 05 Septembre
 time: 02 Mois
 hour: 02H/jrs
 level: débutant
@@ -14,7 +15,7 @@ person: 15 personnes
 category: [Développemment Web]
 image:
     feature: /assets/img/html-css.jpg
-contact: 22551571396
+contact: 22577274886
 ---
 
 
@@ -64,13 +65,13 @@ vous seront soumis.
 <div class="bg-light p-4">
 <p class="text-uppercase h4 border-bottom py-3">coût et certificat de réussite</p>
 
-Le coût de la formation est de <strong>{{ page.price }}</strong>. Ces frais sont ramené à <strong>{{ page.sale }}</strong> pour toute inscription validée avant le 31 août 2020.
+Le coût de la formation est de <strong>{{ page.price }}</strong>. Ces frais sont ramené à <strong>{{ page.sale }}</strong> pour toute inscription validée avant le {{ page.deadline }}.
 
-L'inscription est validée après le <strong>paiement de {{ page.amount }}</strong> du côut de la formation avant le 31 août.
+L'inscription est validée après le <strong>paiement de {{ page.amount }}</strong> du côut de la formation avant le {{ page.deadline }}.
 
 Le certificat de réussite de cette formation est délivré à tous les participants ayant suivi régulièrement toutes les sessions et réussi l'ensemble des tests à plus de 65%.
 
 <!-- inscription -->
 {% include register.html %}
 
-<p class="small py-3 font-italic">Un livre physique est offert aux 03 premiers inscrits avant le 31 Août.</p>
+<p class="small py-3 font-italic text-left">Un livre physique est offert aux 03 premiers inscrits avant le {{ page.deadline }}.</p>

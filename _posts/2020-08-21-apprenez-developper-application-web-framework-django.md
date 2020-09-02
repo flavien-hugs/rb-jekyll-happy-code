@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Acquérir les bases essentielles du langage Python
-target: "Vous avez un ordinateur, vous désirez apprendre à écrire des programme en étant totalement ou partiellement débutant dans le domaine, alors cette formation est faites pour vous."
-price: 50 000 Fr
+title: Développer vos applications avec le framework Django
+target: "Vous avez un ordinateur, vous désirez apprendre à développer des applications web from scrach avec le framework Django, alors cette formation est faites pour vous."
+price: 80 000 Fr
 sale: 40 000 Fr
 amount: 50%
 start: 05 Septembre
@@ -14,8 +14,8 @@ location: en présentiel
 person: 15 personnes 
 category: [Programmation]
 image:
-    feature: /assets/img/python.png
-contact: 22577274886
+    feature: /assets/img/framework-django.jpg
+contact: 22551571396
 ---
 
 
@@ -32,7 +32,7 @@ contact: 22577274886
 
 <p id="about-course" class="text-muted text-uppercase h4 border-bottom py-3">description du cours</p>
 
-Vous avez un ordinateur, vous désirez apprendre à écrire des programme en étant totalement ou partiellement débutant dans le domaine, alors cette formation est faites pour vous.
+Vous avez un ordinateur, vous désirez apprendre à développer des applications web from scrach avec le framework Django, alors cette formation est faites pour vous.
 
 En générale lorsque nous nous lançons dans le monde de la programmation, on commence par une phase théorique dans laquelle on essai de comprendre le principe de fonctionnement dudit langage et tout le jargon informatique associé. Souvent même, bien avant de se lancer on ne sait quel langage apprendre, ce qui très souvent pousse certains à l'abandon dès les premières difficultés de comprehension.
 
@@ -73,11 +73,11 @@ vous seront soumis.
 
 Le coût de la formation est de <strong>{{ page.price }}</strong>. Ces frais sont ramené à <strong>{{ page.sale }}</strong> pour toute inscription validée avant le {{ page.deadline }}.
 
-L'inscription est validée après le <strong>paiement de {{ page.amount }}</strong> du côut de la formation avant le {{ page.deadline }}.
+L'inscription est validée après le <strong>paiement de {{ page.amount }}</strong> du côut de la formation avant le 31 août.
 
 Le certificat de réussite de cette formation est délivré à tous les participants ayant suivi régulièrement toutes les sessions et réussi l'ensemble des tests à plus de 65%.
 
 <!-- inscription -->
 {% include register.html %}
 
-<p class="small py-3 font-italic text-left">Un livre physique sur le langage Python est offert aux 03 premiers inscrits avant le {{ page.deadline }}</p>
+<p class="small py-3 font-italic text-left">Un livre physique sur le framework Django est offert aux 03 premiers inscrits avant le {{ page.deadline }}.</p>

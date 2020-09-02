@@ -10,46 +10,24 @@
     <div class="row d-flex justify-content-center align-items-center">
       <div class="col-lg-6 mb-5 mb-lg-0">
         <div class="testimonials-slider owl-carousel owl-theme owl-dots-left">
-          <div class="item">
-            <blockquote class="blockquote border-0 p-0">
-              <p class="blockquote-text text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </blockquote>
-            <footer class="blockquote-footer">
-              <div class="media align-items-center">
-                <img class="rounded-circle shadow-sm" src="{{ site.baseurl }}/assets/img/client-1.jpg" alt="" width="50">
-                <div class="media-body ml-3">
-                  <h5 class="text-dark mb-0">John Charlez</h5>
-                  <cite class="text-gray">Iso client</cite>
+          {% for item in site.data.testimonial.data %}
+            <div class="item">
+              <blockquote class="blockquote border-0 p-0">
+                <p class="blockquote-text text-muted">
+                  {{ item.content }}
+                </p>
+              </blockquote>
+              <footer class="blockquote-footer">
+                <div class="media align-items-center">
+                  <img class="rounded-circle shadow-sm" src="{{ item.image | prepend: site.baseurl }}" alt="{{ item.name }}" width="50">
+                  <div class="media-body ml-3">
+                    <h5 class="text-dark mb-0">{{ item.name }}</h5>
+                    <cite class="text-gray">{{ site.profesion }}</cite>
+                  </div>
                 </div>
-              </div>
-            </footer>
-          </div>
-          <div class="item">
-            <blockquote class="blockquote border-0 p-0">
-              <p class="blockquote-text text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </blockquote>
-            <footer class="blockquote-footer">
-              <div class="media align-items-center"><img class="rounded-circle shadow-sm" src="{{ site.baseurl }}/assets/img/client-2.jpg" alt="" width="50">
-                <div class="media-body ml-3">
-                  <h5 class="text-dark mb-0">Samantha Lewis</h5>
-                  <cite class="text-gray">Iso client</cite>
-                </div>
-              </div>
-            </footer>
-          </div>
-          <div class="item">
-            <blockquote class="blockquote border-0 p-0">
-              <p class="blockquote-text text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </blockquote>
-            <footer class="blockquote-footer">
-              <div class="media align-items-center"><img class="rounded-circle shadow-sm" src="{{ site.baseurl }}/assets/img/client-3.jpg" alt="" width="50">
-                <div class="media-body ml-3">
-                  <h5 class="text-dark mb-0">Carrie Steiniger</h5>
-                  <cite class="text-gray">Iso client</cite>
-                </div>
-              </div>
-            </footer>
-          </div>
+              </footer>
+            </div>
+          {% endfor %}
         </div>
       </div>
           <!--<div class="col-lg-5 ml-auto">

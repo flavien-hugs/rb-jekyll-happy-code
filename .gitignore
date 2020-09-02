@@ -1,7 +1,9 @@
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
 Gemfile.lock
 build
 docs
-.sass-cache
-.jekyll-cache
+_site
 node_modules
 *~
