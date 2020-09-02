@@ -1137,6 +1137,11 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
   z-index: 99;
 }
 
+.pricing-featured::before {
+  background: #6610f2 !important;
+  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.08);
+}
+
 .pricing-featured::before,
 .pricing-featured::after {
   content: '';
@@ -1155,11 +1160,6 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
     height: 100%;
     top: 0;
   }
-}
-
-.pricing-featured::before {
-  background: #6610f2 !important;
-  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.08);
 }
 
 .list-check {
@@ -1400,10 +1400,6 @@ STYLE SWITCHER FOR DEMO
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.9);
   border-color: rgba(0, 0, 0, 0.1);
-}
-
-.navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 .navbar-light .navbar-text {
