@@ -1158,7 +1158,7 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
 }
 
 .pricing-featured::before {
-  background: #6610f2;
+  background: #6610f2 !important;
   box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.08);
 }
 
