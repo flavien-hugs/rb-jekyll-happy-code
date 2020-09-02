@@ -1137,7 +1137,8 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
   z-index: 99;
 }
 
-.pricing-featured::before, .pricing-featured::after {
+.pricing-featured::before,
+.pricing-featured::after {
   content: '';
   width: 100%;
   height: calc(100% + 4rem);
@@ -1149,14 +1150,14 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
 }
 
 @media (max-width: 991.98px) {
-  .pricing-featured::before, .pricing-featured::after {
+  .pricing-featured::before,
+  .pricing-featured::after {
     height: 100%;
     top: 0;
   }
 }
 
 .pricing-featured::before {
-  background: #6610f2;
   box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.08);
 }
 
