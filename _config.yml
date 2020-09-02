@@ -2,8 +2,6 @@
 # Configuration du site
 # http://jekyllrb.com/docs/configuration/
 #----------------------------------------
-# A propos de l'auteur
-#----------------------------------------
 
 destination: _site
 author: flavien-hugs
@@ -60,6 +58,11 @@ jekyll-minifier:
 paginate: 20
 paginate_path: "/formation/page:num"
 
+
+#---------------------
+# configuration assets
+#---------------------
+
 sass:
     load_paths:
         - _sass
@@ -78,16 +81,10 @@ layouts_dir : _layouts
 #-----------------------
 
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
+  - .sass-cache
+  - .jekyll-cache
   - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - node_modules
   - package.json
   - package-lock.json
 

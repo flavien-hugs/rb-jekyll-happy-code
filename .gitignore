@@ -1,9 +1,8 @@
+build
+docs
+_site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 Gemfile.lock
-build
-docs
-_site
 node_modules
-*~
