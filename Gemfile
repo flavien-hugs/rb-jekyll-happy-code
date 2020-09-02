@@ -5,9 +5,10 @@ source "https://rubygems.org"
 git_source(:github) {
     |repo_name| "https://github.com/flavien-hugs/{happyCoding}" }
 
-# gem "rails"
+# gem de base pour Jekyll
 gem "jekyll"
 
+# plugins utilisés
 group :jekyll_plugins do
     gem 'liquid-c'
     gem 'jekyll-paginate'

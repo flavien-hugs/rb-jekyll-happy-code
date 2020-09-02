@@ -279,8 +279,8 @@ strong {
 }
 
 /*
-    Z-index helpers - .z-index-[10-50]
-    ------------------------
+  Z-index helpers - .z-index-[10-50]
+  ------------------------
 */
 .z-index-10 {
   z-index: 10;
@@ -303,7 +303,8 @@ strong {
 }
 
 /*
-     Letter spacing helpers - .letter-spacing-[0-5]
+  Letter spacing helpers -
+  .letter-spacing-[0-5]
     ------------------------
 */
 .letter-spacing-0 {
@@ -1155,7 +1156,7 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
 }
 
 .pricing-featured::before {
-  background: var(--indigo);
+  background: #6610f2;
   box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.08);
 }
 
