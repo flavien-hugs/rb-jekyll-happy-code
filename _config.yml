@@ -80,12 +80,4 @@ layouts_dir : _layouts
 # configuration excludes
 #-----------------------
 
-exclude:
-  - .sass-cache
-  - .jekyll-cache
-  - Gemfile
-  - node_modules
-  - package.json
-  - package-lock.json
-
 livereload: true
