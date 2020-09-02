@@ -1138,7 +1138,7 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
 }
 
 .pricing-featured::before {
-  background: #6610f2 !important;
+  background: var(--indigo) !important;
   box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.08);
 }
 
@@ -3107,7 +3107,7 @@ code {
   border-radius: 0.25rem;
 }
 
-.card-hover:focus, .card:hover {
+.card-hover:hover, .card-hover:hover {
   box-shadow: 0 10px 10px rgba(0, 0, 0, .10);
 }
 
