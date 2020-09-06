@@ -22,11 +22,11 @@ contact: 22577274886
 <p class="text-muted text-uppercase h4 border-bottom py-3">Vous allez apprendre à : </p>
 
 * Créer des sites webs avec HTML et CSS;
-* Choisir une solution technique adaptée à votre client et travailler en mode Agile;
+* Choisir une solution adaptée à votre client et travailler en mode Agile;
 * Créer des applications web dynamiques avec Javascript;
 * Refactoriser du code pour qu’il soit plus moderne et optimisé.
 
-À la fin de cette formation, vous serrez capable de développer une site vitrine de A à Z.
+À la fin de cette formation, vous serrez capable de développer une site de A à Z.
 
 <p id="about-course" class="text-muted text-uppercase h4 border-bottom py-3">description du cours</p>
 

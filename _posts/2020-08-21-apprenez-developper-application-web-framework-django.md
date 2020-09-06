@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Développer vos applications avec le framework Django
-target: "Vous avez un ordinateur, vous désirez apprendre à développer des applications web from scrach avec le framework Django, alors cette formation est faites pour vous."
+target: "Le monde du développement Web vous intéresse, mais vous n'y connaissez pas grand chose ? Vous abandonnez à la prémière difficulté ? Alors cette formation est faite pour vous. Elle a pour objectif de vous apprendre de A à Z le développeur d'application Web avec le super framework Django."
 price: 80 000 Fr
 sale: 40 000 Fr
 amount: 50%
@@ -12,17 +12,17 @@ hour: 02H/jrs
 level: débutant
 location: en présentiel
 person: 15 personnes 
-category: [Programmation]
+category: [Développement Web]
 image:
     feature: /assets/img/framework-django.jpg
-contact: 22551571396
+contact: 22577274886
 ---
 
 
 <p class="text-muted text-uppercase h4 border-bottom py-3">Vous allez apprendre à : </p>
 
-* Installer **Python** sur n'importe quel système d'exploitation
-* Installer et travailler avec un environnement virtuel
+* Configurer un environnement de travail efficace 
+* Installer proprement la dernière version du framework Django
 * Écrire un **algorithme via les pseudo-codes**
 * Comprendre le vocabulaire du langage Python 
 * Reconnaître la **synthaxe de base du langage Python**

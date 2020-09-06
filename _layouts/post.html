@@ -6,25 +6,25 @@ layout: default
 <aside class="hero d-flex align-items-center showcase bg-light">
   <div class="container-fluid justify-content-center p-0 mt-5">
     <div class="row no-gutters pt-5">
-      <div class="col-sm-6 mt-auto mt-sm-0 order-lg-1">
+      <div class="col-lg-7 mt-auto mt-sm-0 order-lg-1">
         <img class="w-100 h-100 d-none d-md-block" src="{{ site.baseurl }}{{ page.image.feature }}" alt="{{ page.title }}">
       </div>
 
-      <div class="col-sm-12 col-md-6 order-lg-2 showcase-text bg-primary text-white text-center text-sm-left">
-        <h3>{{ page.title }}</h3>
+      <div class="col-sm-12 col-lg-5 order-lg-2 showcase-text bg-primary text-white text-center text-sm-left">
+        <h3 class="pt-3">{{ page.title }}</h3>
         <p class="font-weight-bold text-uppercase h5 text-white py-2">
           <span><i class="fas fa-calendar mr-1"></i>{{ page.start }}
           </span> &smid;
 
-          <a href="#price" class="text-white"><span><i class="fa fa-wallet mr-1"></i> {{ page.sale }}
-          </span></a>
+          <span><i class="fa fa-wallet mr-1"></i> {{ page.sale }}
+          </span>
         </p>
         <p class="lead mb-0 text-justify py-2 text-white">
           {{ page.target }}
         </p>
 
         <p class="py-3 text-uppercase shadow-none">
-          <span><a href="#" target="_blank" class="btn btn-md btn-primary">je m'inscris</a></span>
+          <span><a href="#" target="_blank" class="btn btn-md btn-primary">je m'inscris</a></span> <span class="mr-2"><a href="https://web.whatsapp.com/send?phone={{ page.contact }}&amp;text={{ page.title }}" onclick="gtag('config', 'UA-87674588-1', {'page_path': '/vpv/whatsapp'})" target="_blank" class="btn btn-md btn-success">discutons sur WhatsApp</a></span>
         </p>
       </div>
     </div>
@@ -72,7 +72,13 @@ layout: default
 
             <li class="list-group-item bg-transparent border-white py-3"><span><i class="fa fa-award mr-2"></i>Attestation de formation</span></li>
 
-            <li class="list-group-item text-uppercase bg-transparent border-white text-center py-4"><a class="btn btn-md btn-light" href="#" target="_blank">je m'inscris</a></li>
+            <div class="container-fluid text-uppercase bg-transparent text-center py-4">
+              <div class="row btn-group">
+                <a class="btn btn-md btn-light border-0 mb-3" href="#" target="_blank">je m'inscris maintenant</a>
+
+                <a href="https://web.whatsapp.com/send?phone={{ page.contact }}&amp;text={{ page.title }}" onclick="gtag('config', 'UA-87674588-1', {'page_path': '/vpv/whatsapp'})" target="_blank" class="btn btn-md btn-success">discutons sur WhatsApp</a>
+              </div>
+            </div>
           </ul>
         </div>
       </aside>

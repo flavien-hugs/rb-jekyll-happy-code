@@ -15,7 +15,7 @@ person: 15 personnes
 category: [Langue]
 image:
     feature: /assets/img/english.jpeg
-contact: 22551571396
+contact: 22577274886
 ---
 
 <p class="text-muted text-uppercase h4 border-bottom py-3">
