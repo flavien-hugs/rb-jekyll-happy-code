@@ -23,37 +23,32 @@ contact: 22577274886
 
 * Configurer un environnement de travail efficace 
 * Installer proprement la dernière version du framework Django
-* Écrire un **algorithme via les pseudo-codes**
+* Créer des applictions web professionnelle avec Django
 * Comprendre le vocabulaire du langage Python 
-* Reconnaître la **synthaxe de base du langage Python**
-* Manipuler les **structures de contrôles**, les **structures de données** et les fichiers 
-* Définir **définir et appeler une fonction** 
-* Connaître les notions de **modules et packages** en Python.
+* Apprendre les bonnes pratiques d'organisation d'un projet Django,
+* Manipuler l'ORM de Django pour intéragir avec la base de données
+* Créer ou intégrer des templates (gabarits) 
+* Déployer votre projet sur github pour le versionning
+* Mettre en ligne votre application sur Heroku ou Pythonanywhere
 
 <p id="about-course" class="text-muted text-uppercase h4 border-bottom py-3">description du cours</p>
 
-Vous avez un ordinateur, vous désirez apprendre à développer des applications web from scrach avec le framework Django, alors cette formation est faites pour vous.
+Si vous avez de bonnes bases en Python et vous souhaitez vous lancer dans le développement web, alors ce framework est absolu fait pour vous aidez.
 
-En générale lorsque nous nous lançons dans le monde de la programmation, on commence par une phase théorique dans laquelle on essai de comprendre le principe de fonctionnement dudit langage et tout le jargon informatique associé. Souvent même, bien avant de se lancer on ne sait quel langage apprendre, ce qui très souvent pousse certains à l'abandon dès les premières difficultés de comprehension.
+Dans cette formation 100% pratique, nous allons **créer un mini-blog** assez simple. Pas à pas, nous allons voir comment **démarrer un projet en django**, comprendre le fonctionnement de Django, voir la différence entre une application et un projet, configurer une **base de données**, ajouter un **modèle**, organiser ses **gabarits** enfin savoir exploiter la documentation de ce framework.
 
-Ce n'est qu'après cela que nous pensons généralement à **<u>réellement pratiquer</u>**.
-
-Mais vu que l'objectif final est de réaliser plus tard des projets ou intégrer des équipes de projet avec ce langage, nous avons donc pris soin de placer cette formation sous le thème de **<u>"J'apprends, je comprends et je pratique"</u>**.
-
-Cette formation est conçue pour toute personne débutante désireuse d'apprendre la programmation de façon pratique afin de monter en compétence.
+L'objectif final est de vous rendre autônome plus tard sur des projets avec ce framework. Nous avons donc pris soin de placer cette formation sous le thème de **<u>"J'apprends, je comprends et je pratique"</u>**.
 
 <!-- inscription -->
 {% include register.html %}
 
 
 <p class="text-muted text-uppercase h4 border-bottom py-3">prérequis</p>
-Cette formation nécessite d'avoir un esprit logique, ainsi que de savoir :
-* Lire, écrire et calculer
-* Être à l'aise avec l'ordinateur et le clavier.
-
-Si ce n’est pas le cas, vous devez apprendre le principe de bases en mathématique et la manipulation d'un ordinateur !
+Cette formation nécessite d'avoir quelques bases fondamentales en python et programmation orientée objet.
+Si ce n’est pas le cas, vous pouvez suivre notre formation en <a class="font-weight-bold text-dark" href="" title="">python basique</a>, afin d'acquérir des bases solides pour prendre en main le fabuleux framework Django.
 
 Matériel requis
+
 Pour suivre cette formation, vous devez avoir un ordinateur capable d'accueillir l'environnement de développement gratuit Python : Python3 et PyCharm Community ou PyCharm Edu ou Thonny.
 
 <p class="text-muted text-uppercase h4 border-bottom py-3">
