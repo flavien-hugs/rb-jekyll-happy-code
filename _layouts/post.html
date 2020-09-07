@@ -23,9 +23,13 @@ layout: default
             {{ page.target }}
           </p>
 
-          <p class="py-3 text-uppercase shadow-none">
-            <span><a href="#" target="_blank" class="btn btn-md btn-primary">je m'inscris</a></span> <span class="mr-2"><a href="https://web.whatsapp.com/send?phone={{ page.contact }}&amp;text={{ page.title }}" onclick="gtag('config', 'UA-87674588-1', {'page_path': '/vpv/whatsapp'})" target="_blank" class="btn btn-md btn-success">discutons sur WhatsApp</a></span>
-          </p>
+          <div class="container-fluid text-uppercase bg-transparent text-center py-4">
+            <div class="row btn-group">
+                <a class="btn btn-md btn-light shadow-sm mb-3" href="#" target="_blank">je m'inscris maintenant</a>
+
+                <a href="https://web.whatsapp.com/send?phone={{ page.contact }}&amp;text={{ page.title }}" onclick="gtag('config', 'UA-87674588-1', {'page_path': '/vpv/whatsapp'})" target="_blank" class="btn btn-md btn-success shadow-sm">discutons sur WhatsApp</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
