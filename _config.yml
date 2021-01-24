@@ -5,12 +5,12 @@
 
 destination: _site
 author: flavien-hugs
-email: flavienhugs@pm.me
+email: contact@unsta.net
 tel: (+225) 51 57 13 96 / 77 27 48 86
 title: ADN NUMÉRIQUE
 language: "fr"
-baseurl: ""
-url: ""
+baseurl: "https://formation.unsta.net"
+url: "https://formation.unsta.net"
 description: "Plateforme de formation à l'outil informatique
 et d'initiation à l'anglais."
 keywords: [

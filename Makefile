@@ -26,4 +26,4 @@ serve: include-npm-deps
 
 # generate-githubpages
 build-site:
-	rm -fr docs && JEKYLL_ENV=production $(JEKYLL) build --baseurl https://unsta.netlify.app -d docs/ && touch docs/.nojekyll
+	rm -fr docs && JEKYLL_ENV=production $(JEKYLL) build --baseurl https://formation.unsta.net -d docs/ && touch docs/.nojekyll
