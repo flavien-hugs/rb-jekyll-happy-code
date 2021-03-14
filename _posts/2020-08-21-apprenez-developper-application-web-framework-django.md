@@ -15,7 +15,7 @@ person: 15 personnes
 category: [Développement Web]
 image:
     feature: /assets/img/framework-django.jpg
-contact: 22577274886
+contact: 2250777274886
 ---
 
 

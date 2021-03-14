@@ -15,7 +15,7 @@ person: 15 personnes
 category: [Développement Web]
 image:
     feature: /assets/img/jekyll.png
-contact: 22577274886
+contact: 2250777274886
 ---
 
 <p class="text-dark text-uppercase h4 border-bottom py-3">

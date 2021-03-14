@@ -15,7 +15,7 @@ person: 15 personnes
 category: [Bureautique]
 image:
     feature: /assets/img/mso.jpg
-contact: 22577274886
+contact: 2250777274886
 ---
 
 

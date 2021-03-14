@@ -15,7 +15,7 @@ person: 15 personnes
 category: [Programmation]
 image:
     feature: /assets/img/python.png
-contact: 22577274886
+contact: 2250777274886
 ---
 
 
